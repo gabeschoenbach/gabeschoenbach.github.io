@@ -1,3 +1,25 @@
-.text {
-    text-align: center;
+.footer {
+    height:0px;
+    opacity:0.2;
+    width: 100%;
+    position: absolute;
+    bottom: 80px;
+}
+
+.social-container {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.social-links {
+    display: flex;
+    list-style: none;
+}
+
+.social-item {
+    padding-right: 1rem;
 }

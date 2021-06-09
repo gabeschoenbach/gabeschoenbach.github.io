@@ -38,6 +38,14 @@ const Navigation = ({pageTitle}) => {
                                 >projects
                                 </Link>
                             </li>
+                            <li className={navLinkItem}>
+                                <Link 
+                                    to="/publications" 
+                                    className={navLinkText}
+                                    activeClassName={navLinkActive}
+                                >publications
+                                </Link>
+                            </li>
                         </ul>
                     </nav>
                 </div>

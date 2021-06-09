@@ -1,18 +1,17 @@
 import * as React from 'react'
 import Navigation from '../components/navigation'
-import {
-  container,
-  contentContainer,
-} from './style.css'
+import Media from "../components/media"
 
 const ProjectsPage = () => {
     return (
-      <div className="container">
+      <div>
         <Navigation pageTitle="projects">
         </Navigation>
         <div className="contentContainer">
-          <p>I swear I have some projects.</p>
+          <h1>projects</h1>
         </div>
+        <Media>
+        </Media>
       </div>
     )
 }
