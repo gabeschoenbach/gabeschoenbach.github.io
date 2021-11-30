@@ -10,6 +10,7 @@ import {
     tag,
     hr,
 } from './navigation.module.css'
+import cv from '../files/cv.pdf'
 
 const Navigation = ({pageTitle}) => {
     return (
@@ -53,6 +54,16 @@ const Navigation = ({pageTitle}) => {
                                     activeClassName={navLinkActive}
                                 >talks
                                 </Link>
+                            </li>
+                            <li className={navLinkItem}>
+                                <a 
+                                    href={cv} 
+                                    target="_blank"
+                                    rel="noopener noreferral"
+                                    className={navLinkText}
+                                    activeClassName={navLinkActive}
+                                >cv
+                                </a>
                             </li>
                         </ul>
                     </nav>
