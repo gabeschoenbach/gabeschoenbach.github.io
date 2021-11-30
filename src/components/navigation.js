@@ -40,10 +40,18 @@ const Navigation = ({pageTitle}) => {
                             </li>
                             <li className={navLinkItem}>
                                 <Link 
-                                    to="/publications" 
+                                    to="/papers" 
                                     className={navLinkText}
                                     activeClassName={navLinkActive}
-                                >publications
+                                >papers
+                                </Link>
+                            </li>
+                            <li className={navLinkItem}>
+                                <Link 
+                                    to="/talks" 
+                                    className={navLinkText}
+                                    activeClassName={navLinkActive}
+                                >talks
                                 </Link>
                             </li>
                         </ul>
