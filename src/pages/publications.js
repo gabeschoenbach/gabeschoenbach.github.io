@@ -14,7 +14,9 @@ import CardActions from '@material-ui/core/CardActions';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import Button from '@material-ui/core/Typography';
 import texas from '../images/texas_hist.png'
-import grid from '../images/7x7.png'
+import joss from '../images/joss_logo.png';
+import grid from '../images/7x7.png';
+import pyei_kde from '../images/figure2.png';
 
 const useStyles = makeStyles({
   root: {
@@ -42,6 +44,22 @@ const PublicationsPage = () => {
         </Navigation>
         <div className="contentContainer">
           <h1>publications</h1>
+          <Card className={classes.root} variant="outlined">
+            <CardMedia className={classes.media} image={pyei_kde} title="PyEI"/>
+            <div className={classes.details}>
+              <CardHeader
+                // avatar={<Avatar alt="7x7 grid" src={grid}/>}
+                title="PyEI: A Python package for ecological inference"
+                subheader="Karin Knudson, Gabe Schoenbach, Amariah Becker"
+              />
+              <CardContent>
+                <Typography component="p">
+                Typography here.
+                </Typography>
+              </CardContent>
+            </div>
+          </Card>
+          <hr/>
           <Card className={classes.root} variant="outlined">
             <CardMedia className={classes.media} image={grid} title="Partisan Symmetry"/>
             <div className={classes.details}>

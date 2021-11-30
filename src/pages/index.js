@@ -4,6 +4,7 @@ import Media from "../components/media"
 import { StaticImage } from 'gatsby-plugin-image'
 import {
   contentContainer,
+  contentWrap,
 } from './style.css' // not sure why this is necessary
 
 const IndexPage = () => {

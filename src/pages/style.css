@@ -1,6 +1,8 @@
 .contentContainer {
     margin: auto;
+    position: relative;
     max-width: 700px;
+    /* min-height: 100vh; */
 }
 
 .introContainer {
@@ -14,6 +16,13 @@
     font-weight: 100;
     padding-right: 1em;
     text-align: left;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* float: left; */
 }
 
 h1 {
