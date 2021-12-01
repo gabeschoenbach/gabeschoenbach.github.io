@@ -15,9 +15,9 @@ const ProjectsPage = () => {
         </Navigation>
         <div className="contentContainer">
           <h1>projects</h1>
-          <div>
+          <div className="text">
             <p>
-              <h2><a href="https://www.github.com/mggg/GerryChain" target="_blank" rel="noopener noreferrer">gerrychain</a></h2>
+              <h2><a href="https://www.github.com/mggg/GerryChain" target="_blank" rel="noopener noreferrer">GerryChain</a></h2>
               <img src={PA} style={{float: "left", marginRight: 10, borderWidth: 1, borderStyle: "solid"}} alt="GerryChain" width="220"/>
               GerryChain is a Python library that uses Markov chain Monte Carlo (MCMC) sampling to build ensembles of political districting plans. I'm an active contributor to the codebase, currently focused on adding <a href={county_aware} target="_blank" rel="noopener noreferrer">county and municipality awareness</a> to our chains and fine-tuning local search techniques. I've led several GerryChain trainings and am always looking for ways to make the user experience more smooth.
             </p>
