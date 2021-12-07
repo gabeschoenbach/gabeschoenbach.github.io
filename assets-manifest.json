@@ -2,6 +2,7 @@
   "main.js": "render-page.js",
   "render-page.js.map": "render-page.js.map",
   "static/EI_considerations.pdf": "static/EI_considerations-8908fa56400fa09edc28622eac9d4a22.pdf",
+  "static/EI_workflow.pdf": "static/EI_workflow-d617e061431eb0c9b6fa7d07add83536.pdf",
   "static/ZDD.pdf": "static/ZDD-3f14a49db1800b694d746ae1f2063246.pdf",
   "static/county_aware_redistricting.pdf": "static/county_aware_redistricting-3d5ea1e467507cff09f43949aadbb644.pdf",
   "static/cv.pdf": "static/cv-7ea53b47259f5ec9a455e087c4c8c6ed.pdf",
