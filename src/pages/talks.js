@@ -4,6 +4,7 @@ import Media from '../components/media'
 import county_aware from '../files/county_aware_redistricting.pdf'
 import psymm from '../files/psymm.pdf'
 import EI_pres from '../files/EI_considerations.pdf'
+import EI_workflow from '../files/EI_workflow.pdf'
 import ZDD from '../files/ZDD.pdf'
 
 const TalksPage = () => {
@@ -19,6 +20,11 @@ const TalksPage = () => {
                 <a href={county_aware} target="_blank" rel="noopener noreferrer">county aware redistricting</a>
                 <br/>
                 The University of Chicago Undergraduate Math Club, Oct. 2021
+                <br/>
+                <br/>
+                <a href={EI_workflow} target="_blank" rel="noopener noreferrer">a workflow for testing EI</a>
+                <br/>
+                MGGG Lab Meeting, Feb. 2021
                 <br/>
                 <br/>
                 <a href={ZDD} target="_blank" rel="noopener noreferrer">counting graph partitions</a>
