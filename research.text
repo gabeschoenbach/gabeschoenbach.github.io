@@ -1,0 +1,35 @@
+### research projects 
+[go back ↰](http://gabeschoenbach.com)
+
+## broad themes
+I'm trying to figure out what sorts of problems appeal to me. At a high level, I like thinking about questions that are easy to state and hard to solve. I've been interested in the intersection between theoretical computer science and legal theory. Lately, that's taken me towards problems in differential privacy, analyzing formal definitions of [data deletion](https://arxiv.org/abs/2210.07876) and [machine unlearning](https://arxiv.org/abs/2106.04378), and cryptography. I'm also interested in graph theory -- I love thinking about grid graphs, [the space of balanced graph partitions](https://mggg.org/table), and spanning trees.
+
+Before starting my PhD, I spent two years at the [MGGG Redistricting Lab](https://mggg.org/people/mduchin/) at Tufts University, working with [Dr. Moon Duchin](https://mggg.org/people/mduchin/) to connect the academic study of computational redistricting with real-world applications. Many of my projects stem from that work.
+
+## reading list 
+This is mostly to keep myself accountable. **Bolded** pieces I'm currently reading/thinking about.
+
+* **[Control, Confidentiality, and the Right to be Forgotten](https://arxiv.org/abs/2210.07876)**
+* [Node-Differentially Private Estimation of the Number of Connected Components](https://arxiv.org/abs/2304.05890)
+* [Fair Grading Algorithms for Randomized Exams](https://arxiv.org/abs/2304.06254)
+* [A Framework for Stakes in Voting](https://drive.google.com/file/d/1-tOpqQsLKUfPdCh-cM6TBG_apCj0X0_u/view)
+* [An Algorithmic Approach to Address Course Enrollment Challenges](https://arxiv.org/abs/2304.07982)
+* [Sustained Space and Cumulative Complexity Trade-offs for Data-Dependent Memory-Hard Functions](https://eprint.iacr.org/2022/832.pdf)
+* [The Query-Complexity of Preprocessing Attacks](https://eprint.iacr.org/2023/856.pdf)
+* [Security Properties as Nested Causal Statements](https://arxiv.org/pdf/2104.00872.pdf)
+
+## gerrychain 
+I have been a long-time and active contributor to [GerryChain](https://github.com/mggg/GerryChain), a Python library that uses Markov chain Monte Carlo (MCMC) sampling to build ensembles of political districting plans. Our software has been used extensively in recent legal cases concerning partisan and racial gerrymandering. In particular, GerryChain was used in [Allen v. Milligan](https://www.scotusblog.com/case-files/cases/merrill-v-milligan-2/), where the Supreme Court struck down Alabama's Congressional districting plan for violating Section 2 of the Voting Rights Act.
+
+I am most proud of fine-tuning local search techniques and adding county and municipality awareness to the Markov chains that GerryChain supports.
+
+## pyei 
+Developed in collaboration with [Dr. Karin C. Knudson](https://karinknudson.com/) ([DISC](https://disc.tufts.edu)) and [Dr. Amy Becker](https://www.linkedin.com/in/amariah-becker-90225980/), [PyEI](https://github.com/mggg/ecological-inference) is a Python package for ecological inference and ecological regression. We developed this tool with two goals in mind:
+
+* To improve the sophistication with which legal experts can discuss evidence of RPV in voting rights cases.
+* To make it easier for researchers to explore the sometimes-murky behavior of EI models. 
+
+In conjunction with GerryChain, PyEI has been used in several legal cases after the 2020 redistricting cycle, including [Allen v. Milligan](https://www.scotusblog.com/case-files/cases/merrill-v-milligan-2/).
+
+## enumerating graph partitions
+I'm deeply interested in the empirical validation study from [Fifield and friends](https://www.tandfonline.com/doi/full/10.1080/2330443X.2020.1791773), which uses the ZDD data structure given in [Kawahara and friends](https://link.springer.com/chapter/10.1007/978-3-319-53925-6_10) to compactly express all connected, population-balanced partitions of a given map graph. I've worked with [Dr. Amy Becker](https://www.linkedin.com/in/amariah-becker-90225980/) and [Bhushan Suwal](https://bsuwal.com/) on a Julia implementation of the "enumpart" algorithm, which can help us better understand the districting state space for "toy" problems and help us benchmark modifications to our Markov chains.

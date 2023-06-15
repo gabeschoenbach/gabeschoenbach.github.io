@@ -1,0 +1,115 @@
+:root {
+  --border-color: rgb(197, 45, 95, 0.4);
+  --background-color: #f3eee8;
+  --hover-color: rgb(197, 45, 95, 1);
+}
+
+html {
+  background-color: var(--background-color);
+}
+
+body {
+  margin: auto;
+  padding: 20px 50px 0px 40px;
+  font-family: Arial, sans-serif;
+  line-height: 1.35;
+  max-width: 650px;
+  font-size: 18px;
+  overflow-y: scroll;
+  background-color: white;
+  border-left: 3px solid var(--border-color);
+  border-right: 3px solid var(--border-color);
+  border-bottom: 3px solid var(--border-color);
+}
+
+h1 a, h1 a:visited,
+h2 a, h2 a:visited,
+h3 a, h3 a:visited,
+h4 a, h4 a:visited,
+h5 a, h5 a:visited,
+h6 a, h6 a:visited {
+  color: black;
+}
+
+#kunal-marwaha {
+  margin-bottom:-8px;
+}
+
+.backtotoplink {
+  font-size: 16px;
+}
+
+body > :first-child {
+  background-color: var(--background-color);
+  padding: 5px;
+}
+
+body > p:first-of-type > img {
+  border-radius: 30%;
+  float:right;
+  margin-top: -30px;
+}
+
+.toc {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+ul,ol {
+  margin-left: -10px;
+}
+
+hr {
+  border-bottom: 0;
+  border-top: 1px solid var(--background-color);
+}
+
+.information {
+  padding-left: 30px;
+  font-size: 16px;
+}
+
+.information p {
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.emoji {
+  font-size: 28px;
+  margin-left: -32px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+h2 {
+  border-top: 1px solid var(--background-color);
+  padding-top: 1em;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+a:hover,
+a:focus {
+  color: var(--hover-color);
+  text-decoration-color: gold;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #AAA;
+}
+
+figcaption {
+  font-size: 0.5em;
+}
+
+p {
+  margin-bottom: 20px;
+}

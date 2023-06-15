@@ -1,0 +1,12 @@
+### things about this site 
+[go back ↰](http://gabeschoenbach.com)
+
+## about
+My friend [Kunal Marwaha](https://kunalmarwaha.com) graciously let me copy essentially his entire website framework, and helped me get this up and running. He has many thoughtful things to say about website design [here](https://kunalmarwaha.com/websites).
+
+## todos
+Keeping track of things I want to change about this website.
+
+* Automate the "last updated" footer that's [on the bottom of the now page](http://gabeschoenbach.com/now.html#what-im-reading), and put it on every page.
+* Fix [pandocify.sh](http://gabeschoenbach.com/pandocify.sh) to put the "back to top" button on the last section of each page.
+* Tighten up the padding between "go back" and the section headers at the top of each page.
