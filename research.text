@@ -15,8 +15,9 @@ This is mostly to keep myself accountable. **Bolded** pieces I'm currently readi
 * [A Framework for Stakes in Voting](https://drive.google.com/file/d/1-tOpqQsLKUfPdCh-cM6TBG_apCj0X0_u/view)
 * [An Algorithmic Approach to Address Course Enrollment Challenges](https://arxiv.org/abs/2304.07982)
 * [Sustained Space and Cumulative Complexity Trade-offs for Data-Dependent Memory-Hard Functions](https://eprint.iacr.org/2022/832.pdf)
-* [The Query-Complexity of Preprocessing Attacks](https://eprint.iacr.org/2023/856.pdf)
+* **[The Query-Complexity of Preprocessing Attacks](https://eprint.iacr.org/2023/856.pdf)**
 * [Security Properties as Nested Causal Statements](https://arxiv.org/pdf/2104.00872.pdf)
+* **[Reconciling Individual Probability Forecasts](https://dl.acm.org/doi/10.1145/3593013.3593980)**
 
 ## gerrychain 
 I have been a long-time and active contributor to [GerryChain](https://github.com/mggg/GerryChain), a Python library that uses Markov chain Monte Carlo (MCMC) sampling to build ensembles of political districting plans. Our software has been used extensively in recent legal cases concerning partisan and racial gerrymandering. In particular, GerryChain was used in [Allen v. Milligan](https://www.scotusblog.com/case-files/cases/merrill-v-milligan-2/), where the Supreme Court struck down Alabama's Congressional districting plan for violating Section 2 of the Voting Rights Act.
