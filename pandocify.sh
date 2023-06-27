@@ -41,9 +41,15 @@ ls *.html | while read -r filename; do
     done
 done
 
-# add TOC
+# add TOCs (a different one for index.html)
 ls *.html | while read -r result; do
-    gsed -i '12i<div class="toc">' $result
+    if [[ $result = "index.html" ]]
+    then
+      tocClass="toc"
+    else
+      tocClass="pagetoc"
+    fi
+    gsed -i "12i<div class=${tocClass}>" $result
     gsed -i '13i</div>' $result
 done
 grep -HInri "h2 id" *.html | tail -r | while read -r result; do
