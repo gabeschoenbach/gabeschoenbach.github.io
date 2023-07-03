@@ -7,17 +7,17 @@ I'm trying to figure out what sorts of problems appeal to me. At a high level, I
 Before starting my PhD, I spent two years at the [MGGG Redistricting Lab](https://mggg.org/people/mduchin/) at Tufts University, working with [Dr. Moon Duchin](https://mggg.org/people/mduchin/) to connect the academic study of computational redistricting with real-world applications. Many of my projects stem from that work.
 
 ## reading list 
-This is mostly to keep myself accountable. **Bolded** pieces I'm currently reading/thinking about.
+This is mostly to keep myself accountable. **Bolded** pieces I'm currently thinking about.
 
+* **[On the Complexity of Sampling Redistricting Plans](https://arxiv.org/pdf/2206.04883.pdf)**
+* **[A Framework for Stakes in Voting](https://drive.google.com/file/d/1-tOpqQsLKUfPdCh-cM6TBG_apCj0X0_u/view)**
+* **[New Algorithms and Applications for Risk-Limiting Audits](https://drops.dagstuhl.de/opus/volltexte/2023/17923/pdf/LIPIcs-FORC-2023-2.pdf)**
 * [Node-Differentially Private Estimation of the Number of Connected Components](https://arxiv.org/abs/2304.05890)
 * [Fair Grading Algorithms for Randomized Exams](https://arxiv.org/abs/2304.06254)
-* **[A Framework for Stakes in Voting](https://drive.google.com/file/d/1-tOpqQsLKUfPdCh-cM6TBG_apCj0X0_u/view)**
 * [An Algorithmic Approach to Address Course Enrollment Challenges](https://arxiv.org/abs/2304.07982)
 * [Sustained Space and Cumulative Complexity Trade-offs for Data-Dependent Memory-Hard Functions](https://eprint.iacr.org/2022/832.pdf)
 * [Security Properties as Nested Causal Statements](https://arxiv.org/pdf/2104.00872.pdf)
-* **[New Algorithms and Applications for Risk-Limiting Audits](https://drops.dagstuhl.de/opus/volltexte/2023/17923/pdf/LIPIcs-FORC-2023-2.pdf)**
-* **[On the Complexity of Sampling Redistricting Plans](https://arxiv.org/pdf/2206.04883.pdf)**
-* **[Group fairness in dynamic refugee assignment](Group fairness in dynamic refugee assignment.)**
+* [Group fairness in dynamic refugee assignment](Group fairness in dynamic refugee assignment.)
 
 ## gerrychain 
 I have been a long-time and active contributor to [GerryChain](https://github.com/mggg/GerryChain), a Python library that uses Markov chain Monte Carlo (MCMC) sampling to build ensembles of political districting plans. Our software has been used extensively in recent legal cases concerning partisan and racial gerrymandering. In particular, GerryChain was used in [Allen v. Milligan](https://www.scotusblog.com/case-files/cases/merrill-v-milligan-2/), where the Supreme Court struck down Alabama's Congressional districting plan for violating Section 2 of the Voting Rights Act.
