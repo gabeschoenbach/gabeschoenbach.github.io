@@ -17,6 +17,7 @@ This is mostly to keep myself accountable. **Bolded** pieces I'm currently readi
 * [Security Properties as Nested Causal Statements](https://arxiv.org/pdf/2104.00872.pdf)
 * **[New Algorithms and Applications for Risk-Limiting Audits](https://drops.dagstuhl.de/opus/volltexte/2023/17923/pdf/LIPIcs-FORC-2023-2.pdf)**
 * **[On the Complexity of Sampling Redistricting Plans](https://arxiv.org/pdf/2206.04883.pdf)**
+* **[Group fairness in dynamic refugee assignment](Group fairness in dynamic refugee assignment.)**
 
 ## gerrychain 
 I have been a long-time and active contributor to [GerryChain](https://github.com/mggg/GerryChain), a Python library that uses Markov chain Monte Carlo (MCMC) sampling to build ensembles of political districting plans. Our software has been used extensively in recent legal cases concerning partisan and racial gerrymandering. In particular, GerryChain was used in [Allen v. Milligan](https://www.scotusblog.com/case-files/cases/merrill-v-milligan-2/), where the Supreme Court struck down Alabama's Congressional districting plan for violating Section 2 of the Voting Rights Act.
