@@ -11,9 +11,10 @@ This is mostly to keep myself accountable. **Bolded** pieces I'm currently think
 
 * **[On the Complexity of Sampling Redistricting Plans](https://arxiv.org/pdf/2206.04883.pdf)**
 * **[Node-Differentially Private Estimation of the Number of Connected Components](https://arxiv.org/abs/2304.05890)**
-* **[A Framework for Stakes in Voting](https://drive.google.com/file/d/1-tOpqQsLKUfPdCh-cM6TBG_apCj0X0_u/view)**
+* **[Differentially Private Analysis of Graphs](https://cs-people.bu.edu/sofya/pubs/GraphPrivacyEncyclopedia.pdf)**
+* **[Recursive Mechanism: Towards Node Differential Privacy and Unrestricted Joins](https://arxiv.org/pdf/1304.4795.pdf)**
+* **[SoK: Plausibly Deniable Storage](https://eprint.iacr.org/2021/1547.pdf)**
 * **[Public-Key Encryption, Local Pseudorandom Generators, and the Low-Degree Method](https://eccc.weizmann.ac.il/report/2023/098/)**
-* **[New Algorithms and Applications for Risk-Limiting Audits](https://drops.dagstuhl.de/opus/volltexte/2023/17923/pdf/LIPIcs-FORC-2023-2.pdf)**
 * [Fair Grading Algorithms for Randomized Exams](https://arxiv.org/abs/2304.06254)
 * [An Algorithmic Approach to Address Course Enrollment Challenges](https://arxiv.org/abs/2304.07982)
 * [Sustained Space and Cumulative Complexity Trade-offs for Data-Dependent Memory-Hard Functions](https://eprint.iacr.org/2022/832.pdf)
