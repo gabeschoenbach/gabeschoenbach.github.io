@@ -9,6 +9,7 @@ Before starting my PhD, I spent two years at the [MGGG Redistricting Lab](https:
 ## reading list 
 This is mostly to keep myself accountable. **Bolded** pieces I'm currently thinking about.
 
+* **[Software protection and simulation on oblivious RAMs](https://dl.acm.org/doi/10.1145/233551.233553)**
 * **[On the Complexity of Sampling Redistricting Plans](https://arxiv.org/pdf/2206.04883.pdf)**
 * **[Node-Differentially Private Estimation of the Number of Connected Components](https://arxiv.org/abs/2304.05890)**
 * **[Differentially Private Analysis of Graphs](https://cs-people.bu.edu/sofya/pubs/GraphPrivacyEncyclopedia.pdf)**
