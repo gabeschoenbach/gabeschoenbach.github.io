@@ -8,5 +8,5 @@ My friend [Kunal Marwaha](https://kunalmarwaha.com) graciously let me copy essen
 Keeping track of things I want to change about this website.
 
 * Automate the "last updated" footer that's [on the bottom of the now page](https://gabey.zip/now.html#what-im-reading), and put it on every page.
-* Fix [pandocify.sh](https://gabey.zip/pandocify.sh) to put the "back to top" button on the last section of each page.
 * Add papers page
+* Add Wilson's Algorithm visualization
