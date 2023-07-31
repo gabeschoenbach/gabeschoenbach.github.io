@@ -73,15 +73,11 @@ def add_back_to_top(file_path):
         file.write(content)
    
 def add_toc_and_entries(file_path):
-    if "index" in file_path:
-        toc_class = "toc"
-    else:
-        toc_class = "pagetoc"
     with open(file_path, 'r') as file:
         content = file.read()
         pattern = r'<h2 id="(.*?)">(.*?)</h2>'
         toc_entries = [f'<div><a href="#{match[0]}">{re.sub(r"<.*?>", "", match[1])}</a></div>\n' for match in re.findall(pattern, content)]
-        toc = f'<div class="{toc_class}">\n' + ''.join(toc_entries) + '</div>'
+        toc = f'<div class="page_toc">\n' + ''.join(toc_entries) + '</div>'
         first_h2 = re.search(r'<h2', content)
         if first_h2:
             content = content[:first_h2.start()] + toc + '\n' + content[first_h2.start():]
@@ -90,15 +86,25 @@ def add_toc_and_entries(file_path):
     with open(file_path, 'w') as file:
         file.write(content)
 
-def generate_webpage_list():
-    with open('index.html', 'r') as index_file:
-        index_content = index_file.read()
-    html_files = [file for file in os.listdir() if file.endswith('.html') and file != 'index.html']
-    for html_file in reversed(html_files):
-        link = f'<div><a href="./{html_file}">{os.path.splitext(html_file)[0]}</a></div>'
-        index_content = re.sub(r'</div>\n$', f'{link}\n</div>\n', index_content, count=1)
-    with open('index.html', 'w') as index_file:
-        index_file.write(index_content)
+def add_webpage_list_to_index():
+    index_file = "index.html"
+    lineno = 13
+    html_files = [filename for filename in os.listdir(".") if filename.endswith(".html")]
+    html_files.sort(reverse=True)
+    
+    with open(index_file, "r") as file:
+        content = file.readlines()
+
+    content.insert(lineno - 1, "</div>\n")
+    for line in html_files:
+        if line != "index.html":
+            line = line.split(".")[0]
+            link_entry = f'<div><a href="./{line}.html">{line}</a></div>\n'
+            content.insert(lineno - 1, link_entry)
+    content.insert(lineno - 1, "<div class=toc>\n")
+
+    with open(index_file, "w") as file:
+        file.writelines(content)
 
 def prettify_html(file_path):
     with open(file_path, 'r') as file:
@@ -114,13 +120,15 @@ def main():
     text_files = [file for file in os.listdir() if file.endswith('.text')]
     for text_file in text_files:
         html_file = text_file.split('.')[0] + '.html'
-        update_tagline(text_file)
-        create_html_file(text_file)
-        add_anchors(html_file)
-        add_back_to_top(html_file)
-        add_toc_and_entries(html_file)
-        prettify_html(html_file)
-    generate_webpage_list()
+        if "index" not in text_file:
+            update_tagline(text_file)
+            create_html_file(text_file)
+            add_anchors(html_file)
+            add_back_to_top(html_file)
+            add_toc_and_entries(html_file)
+        else:
+            create_html_file(text_file)
+            add_webpage_list_to_index()
 
 if __name__ == "__main__":
     main()
