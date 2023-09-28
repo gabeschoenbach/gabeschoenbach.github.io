@@ -1,13 +1,27 @@
 ### what i'm trying to read
 [go back ↰](https://gabey.zip)
 
-## academic articles
-* **[Log-Concave Polynomials IV: Approximate Exchange, Tight Mixing Times, and Near-Optimal Sampling of Forests](https://arxiv.org/pdf/2004.07220.pdf)**
-* **[Complexity and Geometry of Sampling Connected Graph Partitions](https://arxiv.org/pdf/1908.08881.pdf)**
+## academic articles (current focus)
+* [Robust Distortion-free Watermarks for Language Models](https://arxiv.org/abs/2307.15593)
+* [Triangle Counting with Local Edge Differential Privacy](https://arxiv.org/abs/2305.02263)
+* [Public-Key Encryption, Local Pseudorandom Generators, and the Low-Degree Method](https://eccc.weizmann.ac.il/report/2023/098/)
+
+## academic articles (aspirational)
+* [Log-Concave Polynomials IV: Approximate Exchange, Tight Mixing Times, and Near-Optimal Sampling of Forests]()
+* [Complexity and Geometry of Sampling Connected Graph Partitions]()
 * [Models of random subtrees of a graph](https://arxiv.org/pdf/2102.12738.pdf)
 * [Faster generation of random spanning trees](https://arxiv.org/pdf/0908.1448.pdf)
 * [Fast Generation of Random Spanning Trees and the Effective Resistance Metric](https://arxiv.org/pdf/1501.00267.pdf)
 * [An almost-linear time algorithm for uniform random spanning tree generation](https://arxiv.org/pdf/1711.06455.pdf)
+* [Meteor: Cryptographically Secure Steganography for Realistic Distributions](https://eprint.iacr.org/2021/686)
+* [Toward a theory of steganography](http://www.cs.cmu.edu/~hopper/thesis.pdf)
+* [Upper and Lower Bounds on Black-Box Steganography](https://arxiv.org/abs/0806.0837)
+* [Undetectable Watermarks for Language Models](https://arxiv.org/abs/2306.09194)
+* [Fair Grading Algorithms for Randomized Exams](https://arxiv.org/abs/2304.06254)
+* [An Algorithmic Approach to Address Course Enrollment Challenges](https://arxiv.org/abs/2304.07982)
+* [Sustained Space and Cumulative Complexity Trade-offs for Data-Dependent Memory-Hard Functions](https://eprint.iacr.org/2022/832.pdf)
+* [Security Properties as Nested Causal Statements](https://arxiv.org/pdf/2104.00872.pdf)
+* [Group fairness in dynamic refugee assignment](Group fairness in dynamic refugee assignment.)
 
 ## other stuff
 * **[Albion's Seed](https://en.wikipedia.org/wiki/Albion%27s_Seed)**
