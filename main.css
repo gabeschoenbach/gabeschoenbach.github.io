@@ -60,6 +60,10 @@ body > p:first-of-type > img {
   padding-bottom: 0px;
 }
 
+li {
+    line-height: 1.5;
+}
+
 ul,ol {
   margin-left: -10px;
 }
