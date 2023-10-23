@@ -61,7 +61,7 @@ body > p:first-of-type > img {
 }
 
 li {
-    line-height: 3;
+    line-height: 1.55;
 }
 
 ul,ol {
