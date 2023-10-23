@@ -1,29 +1,125 @@
-### what i'm trying to read
+### organizing my reading 
 [go back ↰](https://gabey.zip)
 
-## academic (current focus) 
+## idea
+Mostly, this is a place for me to keep track of every (academic) piece I've read and enjoyed. Trying to keep this semi-organized by topic. I'll **bold** papers that I want to read immeninently and *italicize* works that I haven't fully read but want to eventually.
+
+## favorites
+My all-time favorite papers, for one reason or another. No particular order.
+
+* [On the Complexity of Sampling Redistricting Plans](https://arxiv.org/abs/2206.04883)
+* [Compact Redistricting Plans Have Many Spanning Trees](https://arxiv.org/abs/2109.13394)
+* [Recombination: A Family of Markov Chains for Redistricting](https://hdsr.mitpress.mit.edu/pub/1ds8ptxu/release/5)
+* [Candidate One-Way Functions Based on Expander Graphs](https://link.springer.com/chapter/10.1007/978-3-642-22670-0_10)
+* [The Essential Role of Empirical Validation in Legislative Redistricting Simulation](https://imai.fas.harvard.edu/research/files/enumerate.pdf)
+* [Generating All Patterns of Graph Partitions Within a Disparity Bound](https://www.researchgate.net/publication/313849127_Generating_All_Patterns_of_Graph_Partitions_Within_a_Disparity_Bound)
+* [Public-Key Encryption, Local Pseudorandom Generators, and the Low-Degree Method](https://eprint.iacr.org/2023/1049)
+* [On Computable Numbers, With an Application to the Entscheidungsproblem](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf)
+* [The Design Philosophy of the DARPA Internet Protocols](http://ccr.sigcomm.org/archive/1995/jan95/ccr-9501-clark.pdf)
+* [Node-Differentially Private Estimation of the Number of Connected Components](https://arxiv.org/abs/2304.05890)
+* [Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer](https://arxiv.org/pdf/quant-ph/9508027.pdf)
+
+## graph theory
+Primarily stuff about random sampling of spanning trees or graph partitions.
+
+* **[Triangle Counting with Local Edge Differential Privacy](https://drops.dagstuhl.de/opus/volltexte/2023/18104/pdf/LIPIcs-ICALP-2023-52.pdf)**
+* **[Tight Query Complexity Bounds for Learning Graph Partitions](https://arxiv.org/abs/2112.07897)**
+* **[Learning and Verifying Graphs Using Queries with a Focus on Edge Counting](https://link.springer.com/chapter/10.1007/978-3-540-75225-7_24)**
+* *[Complexity and Geometry of Sampling Connected Graph Partitions](https://arxiv.org/abs/1908.08881)*
+* *[Expected Hitting Times for a Random Walk on a Connected Graph](https://www.sciencedirect.com/science/article/pii/0012365X86900300)*
+* *[Log-Concave Polynomials IV: Approximate Exchange, Tight Mixing, and Near-Optimal Sampling of Forests](https://arxiv.org/abs/2004.07220)*
+* *[Fast Generation of Random Spanning Trees and the Effective Resistance Metric](https://arxiv.org/abs/1501.00267)*
+* *[Models of Random Subtrees of a Graph](https://arxiv.org/abs/2102.12738)*
+* *[Spectral and Algebraic Graph Theory](http://cs-www.cs.yale.edu/homes/spielman/sagt/sagt.pdf)*
+* *[Loop Erased Walks and Uniform Spanning Trees](https://personal.math.ubc.ca/~barlow/preprints/106_ust_survey.pdf)*
+* [Faster Generation of Random Spanning Trees](https://arxiv.org/abs/0908.1448)
+* [Generating Random Spanning Trees More Quickly than the Cover Time](https://dl.acm.org/doi/10.1145/237814.237880)
+
+## cryptography
+Mostly, this has been following a rabbit hole of watermarking large language models, and exploring connections to steganography, a cryptographic primitive for hiding secret text in ostensibly innocuous covertext.
+
+* *[Toward a Theory of Steganography](http://www.cs.cmu.edu/~hopper/thesis.pdf)*
 * [Robust Distortion-free Watermarks for Language Models](https://arxiv.org/abs/2307.15593)
-* [Triangle Counting with Local Edge Differential Privacy](https://arxiv.org/abs/2305.02263)
-* [Public-Key Encryption, Local Pseudorandom Generators, and the Low-Degree Method](https://eccc.weizmann.ac.il/report/2023/098/)
-
-## academic (aspirational)
-* [Log-Concave Polynomials IV: Approximate Exchange, Tight Mixing Times, and Near-Optimal Sampling of Forests]()
-* [Complexity and Geometry of Sampling Connected Graph Partitions]()
-* [Models of random subtrees of a graph](https://arxiv.org/pdf/2102.12738.pdf)
-* [Faster generation of random spanning trees](https://arxiv.org/pdf/0908.1448.pdf)
-* [Fast Generation of Random Spanning Trees and the Effective Resistance Metric](https://arxiv.org/pdf/1501.00267.pdf)
-* [An almost-linear time algorithm for uniform random spanning tree generation](https://arxiv.org/pdf/1711.06455.pdf)
+* [Undetectable Watermarks for Language Models](https://eprint.iacr.org/2023/763)
+* [Steganography and Error-Correcting Codes](https://www.sciencedirect.com/science/article/abs/pii/S0165168406004257)
 * [Meteor: Cryptographically Secure Steganography for Realistic Distributions](https://eprint.iacr.org/2021/686)
-* [Toward a theory of steganography](http://www.cs.cmu.edu/~hopper/thesis.pdf)
-* [Upper and Lower Bounds on Black-Box Steganography](https://arxiv.org/abs/0806.0837)
-* [Undetectable Watermarks for Language Models](https://arxiv.org/abs/2306.09194)
-* [Fair Grading Algorithms for Randomized Exams](https://arxiv.org/abs/2304.06254)
-* [An Algorithmic Approach to Address Course Enrollment Challenges](https://arxiv.org/abs/2304.07982)
-* [Sustained Space and Cumulative Complexity Trade-offs for Data-Dependent Memory-Hard Functions](https://eprint.iacr.org/2022/832.pdf)
-* [Security Properties as Nested Causal Statements](https://arxiv.org/pdf/2104.00872.pdf)
-* [Group fairness in dynamic refugee assignment](Group fairness in dynamic refugee assignment.)
+* [SALSA: Attacking Lattice Cryptography with Transformers](https://arxiv.org/abs/2207.04785)
+* [Planting Undetectable Backdoors in Machine Learning Models](https://arxiv.org/abs/2204.06974)
 
+## differential privacy
+A differentially-private algorithm is a randomized function of a dataset whose outputs shouldn't change much whether or not your data is in the dataset.
 
-## other stuff
-* [Albion's Seed](https://en.wikipedia.org/wiki/Albion%27s_Seed)
-* [Mathematical Writing](https://jmlr.csail.mit.edu/reviewing-papers/knuth_mathematical_writing.pdf)
+* [Concurrent Composition Theorems for Differential Privacy](https://salil.seas.harvard.edu/sites/scholar.harvard.edu/files/salil/files/stoc_2023.pdf)
+* [Concurrent Composition for Interactive Differential Privacy with Adaptive Privacy-Loss Parameters](https://arxiv.org/abs/2309.05901)
+* [Composition Theorems for Interactive Differential Privacy](https://openreview.net/pdf?id=xvlaiSHgPrC)
+* [Gaussian Differential Privacy](https://rss.org.uk/RSS/media/Training-and-events/Events/2020/Dong-et-al-jrssb-final.pdf)
+* [Differential Privacy: A Primer for a Non-Technical Audience](https://privacytools.seas.harvard.edu/files/privacytools/files/pedagogical-document-dp_0.pdf)
+* [A Firm Foundation for Private Data Analysis](https://dl.acm.org/doi/10.1145/1866739.1866758)
+
+## law and cs
+Mostly related to data privacy law, questions about what data deletion should mean, and deniable encryption.
+
+* [Can the Government Compel Decryption? Don’t Trust, Verify](https://arxiv.org/abs/2208.02905)
+* [General Data Protection Runtime: Enforcing Transparent GDPR Compliance for Existing Applications](https://www.ias.cs.tu-bs.de/publications/gdpr_tainting.pdf)
+* [Control, Confidentiality, and the Right to be Forgotten](https://arxiv.org/abs/2210.07876)
+* [Algorithms that Remember: Model Inversion Attacks and Data Protection Law](https://royalsocietypublishing.org/doi/10.1098/rsta.2018.0083)
+* [Making AI Forget You: Data Deletion in Machine Learning](https://arxiv.org/abs/1907.05012)
+* [Adaptive Machine Unlearning](https://arxiv.org/abs/2106.04378)
+* [Deletion Inference, Reconstruction, and Compliance in Machine (Un)learning](https://arxiv.org/abs/2202.03460)
+* [Having your Privacy Cake and Eating it Too: Platform-supported Auditing of Social Media Algorithms for Public Interest](https://arxiv.org/abs/2207.08773)
+* [Software Protection and Simulation on Oblivious RAMs](https://dl.acm.org/doi/10.1145/233551.233553)
+* [SoK: Plausibly Deniable Storage](https://arxiv.org/abs/2111.12809)
+
+## fairness 
+Theoretical computer-scientific methods aimed at ameliorating social/civic issues. Kinda the coolest thing in the world if I'm being honest.
+
+* *[Fair Grading Algorithms for Randomized Exams](https://arxiv.org/abs/2304.06254)*
+* *[An Algorithmic Approach to Address Course Enrollment Challenges](https://arxiv.org/abs/2304.07982)*
+* *[Group Fairness in Dynamic Refugee Assignment](https://arxiv.org/abs/2301.10642)*
+* *[Towards Accounting for Stakes in Voting](https://drive.google.com/file/d/1LTYrPV10W2dmvXYdztnGidoG_CjrMMYB/view)*
+* [Simulation as Experiment: An Empirical Critique of Simulation Research on Recommender Systems](https://arxiv.org/abs/2107.14333)
+* [T-RECS: A Simulation Tool to Study the Societal Impact of Recommender Systems](https://arxiv.org/abs/2107.08959)
+* [New Algorithms and Applications for Risk-Limiting Audits](https://arxiv.org/abs/2305.04050)
+* [Better Together? How Externalities of Size Complicate Notions of Solidarity and Actuarial Fairness](https://arxiv.org/abs/2103.00347)
+
+## miscellaneous theory 
+Complexity theory, computability theory, algorithms, etc.
+
+* **[Approximate Counting](http://www.cs.cmu.edu/~odonnell/complexity/docs/lecture6-abridged.pdf)**
+* *[Slicing the Truth](https://www.math.uchicago.edu/~drh/Papers/Papers/rm.pdf)*
+* *[An Improved Exponential-Time Approximation Algorithm for Fully-Alternating Games Against Nature](https://ieeexplore.ieee.org/document/9317956)*
+* [Mathematical Logic and Computation](https://www.cambridge.org/core/books/mathematical-logic-and-computation/300504EAD8410522CE0C27595D2825A2)
+* [Reconciling Individual Probability Forecasts](https://arxiv.org/abs/2209.01687)
+* [Actual Causality](https://mitpress.mit.edu/9780262537131/actual-causality/)
+
+## online voting
+I went down a rabbit hole about whether we can run fair/secure elections online. Turns out it's hard!
+
+* [Helios: Web-based Open-Audit Voting](https://www.usenix.org/legacy/events/sec08/tech/full_papers/adida/adida.pdf)
+* [Electing a University President using Open-Audit Voting: Analysis of Real-World Use of Helios](https://csrc.nist.gov/CSRC/media/Events/End-to-End-Voting-System-Workshop/documents/papers/DeMarneffe_PaperE2E.pdf)
+* [Improving Helios with Everlasting Privacy Towards the Public](https://www.usenix.org/conference/evtwote12/workshop-program/presentation/demirel)
+* [Adapting Helios for Provable Ballot Privacy](https://eprint.iacr.org/2016/756)
+* [How Not to Prove Yourself: Pitfalls of the Fiat-Shamir Heuristic and Applications to Helios](https://eprint.iacr.org/2016/771.pdf)
+* [Attacking and Fixing Helios: An Analysis of Ballot Secrecy](https://eprint.iacr.org/2010/625)
+* [Blinded Additively Homomorphic Encryption Schemes for Self-Tallying Voting](https://dl.acm.org/doi/10.1145/2523514.2523542)
+* [RemoteVote and SAFE Vote: Towards Usable End-to-End Verification for Vote-by-Mail](https://arxiv.org/abs/2111.08662)
+
+## internet
+Mostly from a [Networks](http://people.cs.uchicago.edu/~ravenben/classes/333/) class I took with Ben Zhao. We read some of the original Internet papers (near the bottom of this list) and worked our way up to modern stuff.
+
+* [Tussle in Cyberspace: Defining Tomorrow's Internet](https://groups.csail.mit.edu/ana/Publications/PubPDFs/Tussle2002.pdf)
+* [Inferring Internet Denial-of-Service Activity](https://cseweb.ucsd.edu/~savage/papers/UsenixSec01.pdf)
+* [Dynamo: Amazon’s Highly Available Key-value Store](https://www.allthingsdistributed.com/files/amazon-dynamo-sosp2007.pdf)
+* [HLP: A Next Generation Inter-domain Routing Protocol](https://dl.acm.org/doi/10.1145/1090191.1080095)
+* [Cashmere: Resilient Anonymous Routing](https://www.usenix.org/legacy/publications/library/proceedings/nsdi05/tech/full_papers/zhuang/zhuang_html/cashmere.html)
+* [Chord: A Scalable Peer-to-Peer Lookup Service for Internet Applications](https://pdos.csail.mit.edu/papers/chord:sigcomm01/chord_sigcomm.pdf)
+* [The Stable Paths Problem and Interdomain Routing](https://www.cs.princeton.edu/courses/archive/spring10/cos598D/gsw02.pdf)
+* [OSPF Monitoring: Architecture, Design, and Deployment Experience](https://www.usenix.org/conference/nsdi-04/ospf-monitoring-architecture-design-and-deployment-experience)
+* [Congestion Control for High Bandwidth-Delay Product Networks](https://conferences.sigcomm.org/sigcomm/2002/papers/xcp.pdf)
+* [Analysis and Simulation of a Fair Queueing Algorithm](http://ccr.sigcomm.org/archive/1995/jan95/ccr-9501-shenker.pdf)
+* [Random Early Detection Gateways for Congestion Avoidance](https://ieeexplore.ieee.org/document/251892)
+* [Congestion Avoidance and Control](https://ee.lbl.gov/papers/congavoid.pdf)
+* [PCP: Efficient Endpoint Congestion Control](https://homes.cs.washington.edu/~arvind/papers/pcp.pdf)
+* [A Protocol for Packet Network Intercommunication](https://www.cs.princeton.edu/courses/archive/fall06/cos561/papers/cerf74.pdf)
+* [Analysis of the Increase and Decrease Algorithms for Congestion Avoidance in Computer Networks](https://www.cse.wustl.edu/~jain/papers/ftp/cong_av.pdf)
+* [End-to-End Arguments in System Design](https://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf)
