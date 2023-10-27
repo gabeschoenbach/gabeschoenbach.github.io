@@ -49,8 +49,9 @@ Theoretical computer-scientific methods aimed at ameliorating social/civic issue
 * [Better Together? How Externalities of Size Complicate Notions of Solidarity and Actuarial Fairness](https://arxiv.org/abs/2103.00347)
 
 ## miscellaneous theory 
-Complexity theory, computability theory, algorithms, etc.
+Pseudorandomness, complexity theory, computability theory, algorithms, etc.
 
+* *[Derandomization of Euclidean Random Walks](https://www.math.toronto.edu/ilia/Research/euclid1.pdf)*
 * [Pseudorandomness](https://people.seas.harvard.edu/~salil/pseudorandomness/pseudorandomness-published-Dec12.pdf)
 * [Theory of Unconditional Pseudorandom Generators](https://eccc.weizmann.ac.il/report/2023/019/)
 * **[Approximate Counting](http://www.cs.cmu.edu/~odonnell/complexity/docs/lecture6-abridged.pdf)**
