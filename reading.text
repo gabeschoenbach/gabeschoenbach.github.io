@@ -22,7 +22,7 @@ My all-time favorite papers, for one reason or another. No particular order.
 ## graph theory
 Primarily stuff about random sampling of spanning trees or graph partitions.
 
-* [Random walks and electric networks](https://arxiv.org/pdf/math/0001057.pdf)
+* *[Random walks and electric networks](https://arxiv.org/pdf/math/0001057.pdf)*
 * **[Triangle Counting with Local Edge Differential Privacy](https://drops.dagstuhl.de/opus/volltexte/2023/18104/pdf/LIPIcs-ICALP-2023-52.pdf)**
 * **[Tight Query Complexity Bounds for Learning Graph Partitions](https://arxiv.org/abs/2112.07897)**
 * **[Learning and Verifying Graphs Using Queries with a Focus on Edge Counting](https://link.springer.com/chapter/10.1007/978-3-540-75225-7_24)**
@@ -51,6 +51,8 @@ Theoretical computer-scientific methods aimed at ameliorating social/civic issue
 ## miscellaneous theory 
 Complexity theory, computability theory, algorithms, etc.
 
+* [Pseudorandomness](https://people.seas.harvard.edu/~salil/pseudorandomness/pseudorandomness-published-Dec12.pdf)
+* [Theory of Unconditional Pseudorandom Generators](https://eccc.weizmann.ac.il/report/2023/019/)
 * **[Approximate Counting](http://www.cs.cmu.edu/~odonnell/complexity/docs/lecture6-abridged.pdf)**
 * *[Slicing the Truth](https://www.math.uchicago.edu/~drh/Papers/Papers/rm.pdf)*
 * *[An Improved Exponential-Time Approximation Algorithm for Fully-Alternating Games Against Nature](https://ieeexplore.ieee.org/document/9317956)*
