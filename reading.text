@@ -64,6 +64,7 @@ Pseudorandomness, complexity theory, computability theory, algorithms, etc.
 ## cryptography
 Mostly, this has been following a rabbit hole of watermarking large language models, and exploring connections to steganography, a cryptographic primitive for hiding secret text in ostensibly innocuous covertext.
 
+* **[Publicly Detectable Watermarking for Language Models](https://eprint.iacr.org/2023/1661.pdf)**
 * **[Locality in Coding Theory](https://www.cs.princeton.edu/techreports/2018/016.pdf)**
 * **[Essential Coding Theory](https://cse.buffalo.edu/faculty/atri/courses/coding-theory/book/web-coding-book.pdf)**
 * *[Toward a Theory of Steganography](http://www.cs.cmu.edu/~hopper/thesis.pdf)*
