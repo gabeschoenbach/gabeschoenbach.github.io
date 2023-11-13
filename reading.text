@@ -22,10 +22,11 @@ My all-time favorite papers, for one reason or another. No particular order.
 ## graph theory
 Primarily stuff about random sampling of spanning trees or graph partitions.
 
+* **[Sampling Balanced Forests of Grids in Polynomial Time](https://arxiv.org/abs/2310.15152)**
 * *[Random walks and electric networks](https://arxiv.org/pdf/math/0001057.pdf)*
-* **[Triangle Counting with Local Edge Differential Privacy](https://drops.dagstuhl.de/opus/volltexte/2023/18104/pdf/LIPIcs-ICALP-2023-52.pdf)**
-* **[Tight Query Complexity Bounds for Learning Graph Partitions](https://arxiv.org/abs/2112.07897)**
-* **[Learning and Verifying Graphs Using Queries with a Focus on Edge Counting](https://link.springer.com/chapter/10.1007/978-3-540-75225-7_24)**
+* *[Triangle Counting with Local Edge Differential Privacy](https://drops.dagstuhl.de/opus/volltexte/2023/18104/pdf/LIPIcs-ICALP-2023-52.pdf)*
+* *[Tight Query Complexity Bounds for Learning Graph Partitions](https://arxiv.org/abs/2112.07897)*
+* *[Learning and Verifying Graphs Using Queries with a Focus on Edge Counting](https://link.springer.com/chapter/10.1007/978-3-540-75225-7_24)*
 * *[Complexity and Geometry of Sampling Connected Graph Partitions](https://arxiv.org/abs/1908.08881)*
 * *[Expected Hitting Times for a Random Walk on a Connected Graph](https://www.sciencedirect.com/science/article/pii/0012365X86900300)*
 * *[Log-Concave Polynomials IV: Approximate Exchange, Tight Mixing, and Near-Optimal Sampling of Forests](https://arxiv.org/abs/2004.07220)*
@@ -54,7 +55,7 @@ Pseudorandomness, complexity theory, computability theory, algorithms, etc.
 * *[Derandomization of Euclidean Random Walks](https://www.math.toronto.edu/ilia/Research/euclid1.pdf)*
 * [Pseudorandomness](https://people.seas.harvard.edu/~salil/pseudorandomness/pseudorandomness-published-Dec12.pdf)
 * [Theory of Unconditional Pseudorandom Generators](https://eccc.weizmann.ac.il/report/2023/019/)
-* **[Approximate Counting](http://www.cs.cmu.edu/~odonnell/complexity/docs/lecture6-abridged.pdf)**
+* *[Approximate Counting](http://www.cs.cmu.edu/~odonnell/complexity/docs/lecture6-abridged.pdf)*
 * *[Slicing the Truth](https://www.math.uchicago.edu/~drh/Papers/Papers/rm.pdf)*
 * *[An Improved Exponential-Time Approximation Algorithm for Fully-Alternating Games Against Nature](https://ieeexplore.ieee.org/document/9317956)*
 * [Mathematical Logic and Computation](https://www.cambridge.org/core/books/mathematical-logic-and-computation/300504EAD8410522CE0C27595D2825A2)
@@ -66,9 +67,9 @@ Mostly, this has been following a rabbit hole of watermarking large language mod
 
 * **[Combinatorial properties of frameproof and traceability codes](https://ieeexplore.ieee.org/abstract/document/915661)**
 * **[Optimal probabilistic fingerprint codes](https://dl.acm.org/doi/abs/10.1145/1346330.1346335?casa_token=-4b4S3eUmWsAAAAA%3AEPzch7tsglsMf6tNym5L3XTF3OAbwHjovfh07BbbvA0lnGuyVzuuO0HJrkWaCOPq3N4vMVb7OBc1AI0)**
-* **[Publicly Detectable Watermarking for Language Models](https://eprint.iacr.org/2023/1661.pdf)**
-* **[Locality in Coding Theory](https://www.cs.princeton.edu/techreports/2018/016.pdf)**
-* **[Essential Coding Theory](https://cse.buffalo.edu/faculty/atri/courses/coding-theory/book/web-coding-book.pdf)**
+* *[Publicly Detectable Watermarking for Language Models](https://eprint.iacr.org/2023/1661.pdf)*
+* *[Locality in Coding Theory](https://www.cs.princeton.edu/techreports/2018/016.pdf)*
+* *[Essential Coding Theory](https://cse.buffalo.edu/faculty/atri/courses/coding-theory/book/web-coding-book.pdf)*
 * *[Toward a Theory of Steganography](http://www.cs.cmu.edu/~hopper/thesis.pdf)*
 * [Robust Distortion-free Watermarks for Language Models](https://arxiv.org/abs/2307.15593)
 * [Undetectable Watermarks for Language Models](https://eprint.iacr.org/2023/763)
