@@ -33,6 +33,7 @@ def create_html_file(text_file):
 <meta charset="utf-8">
 <meta name=viewport content="width=device-width, initial-scale=1">
 <title>Gabe Schoenbach</title>
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>\n''')
