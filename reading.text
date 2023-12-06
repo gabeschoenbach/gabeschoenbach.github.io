@@ -2,7 +2,7 @@
 [go back ↰](https://gabey.zip)
 
 ## idea
-Mostly, this is a place for me to keep track of every (academic) piece I've read and enjoyed. Trying to keep this semi-organized by topic. I'll **bold** papers that I want to read imminently and *italicize* works that I haven't fully read but want to eventually.
+Mostly, this is a place for me to keep track of every (academic) piece I've read and enjoyed. Trying to keep this semi-organized by topic.
 
 ## favorites
 My all-time favorite papers, for one reason or another. No particular order.
@@ -18,32 +18,33 @@ My all-time favorite papers, for one reason or another. No particular order.
 * [The Design Philosophy of the DARPA Internet Protocols](http://ccr.sigcomm.org/archive/1995/jan95/ccr-9501-clark.pdf)
 * [Node-Differentially Private Estimation of the Number of Connected Components](https://arxiv.org/abs/2304.05890)
 * [Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer](https://arxiv.org/pdf/quant-ph/9508027.pdf)
+* [Pseudorandomness for Permutation Branching Programs Without the Group Theory](https://eccc.weizmann.ac.il/report/2012/083/)
 
 ## graph theory
 Primarily stuff about random sampling of spanning trees or graph partitions.
 
-* **[Sampling Balanced Forests of Grids in Polynomial Time](https://arxiv.org/abs/2310.15152)**
-* *[Random walks and electric networks](https://arxiv.org/pdf/math/0001057.pdf)*
-* *[Triangle Counting with Local Edge Differential Privacy](https://drops.dagstuhl.de/opus/volltexte/2023/18104/pdf/LIPIcs-ICALP-2023-52.pdf)*
-* *[Tight Query Complexity Bounds for Learning Graph Partitions](https://arxiv.org/abs/2112.07897)*
-* *[Learning and Verifying Graphs Using Queries with a Focus on Edge Counting](https://link.springer.com/chapter/10.1007/978-3-540-75225-7_24)*
-* *[Complexity and Geometry of Sampling Connected Graph Partitions](https://arxiv.org/abs/1908.08881)*
-* *[Expected Hitting Times for a Random Walk on a Connected Graph](https://www.sciencedirect.com/science/article/pii/0012365X86900300)*
-* *[Log-Concave Polynomials IV: Approximate Exchange, Tight Mixing, and Near-Optimal Sampling of Forests](https://arxiv.org/abs/2004.07220)*
-* *[Fast Generation of Random Spanning Trees and the Effective Resistance Metric](https://arxiv.org/abs/1501.00267)*
-* *[Models of Random Subtrees of a Graph](https://arxiv.org/abs/2102.12738)*
-* *[Spectral and Algebraic Graph Theory](http://cs-www.cs.yale.edu/homes/spielman/sagt/sagt.pdf)*
-* *[Loop Erased Walks and Uniform Spanning Trees](https://personal.math.ubc.ca/~barlow/preprints/106_ust_survey.pdf)*
+* [Sampling Balanced Forests of Grids in Polynomial Time](https://arxiv.org/abs/2310.15152)
+* [Random walks and electric networks](https://arxiv.org/pdf/math/0001057.pdf)
+* [Triangle Counting with Local Edge Differential Privacy](https://drops.dagstuhl.de/opus/volltexte/2023/18104/pdf/LIPIcs-ICALP-2023-52.pdf)
+* [Tight Query Complexity Bounds for Learning Graph Partitions](https://arxiv.org/abs/2112.07897)
+* [Learning and Verifying Graphs Using Queries with a Focus on Edge Counting](https://link.springer.com/chapter/10.1007/978-3-540-75225-7_24)
+* [Complexity and Geometry of Sampling Connected Graph Partitions](https://arxiv.org/abs/1908.08881)
+* [Expected Hitting Times for a Random Walk on a Connected Graph](https://www.sciencedirect.com/science/article/pii/0012365X86900300)
+* [Log-Concave Polynomials IV: Approximate Exchange, Tight Mixing, and Near-Optimal Sampling of Forests](https://arxiv.org/abs/2004.07220)
+* [Fast Generation of Random Spanning Trees and the Effective Resistance Metric](https://arxiv.org/abs/1501.00267)
+* [Models of Random Subtrees of a Graph](https://arxiv.org/abs/2102.12738)
+* [Spectral and Algebraic Graph Theory](http://cs-www.cs.yale.edu/homes/spielman/sagt/sagt.pdf)
+* [Loop Erased Walks and Uniform Spanning Trees](https://personal.math.ubc.ca/~barlow/preprints/106_ust_survey.pdf)
 * [Faster Generation of Random Spanning Trees](https://arxiv.org/abs/0908.1448)
 * [Generating Random Spanning Trees More Quickly than the Cover Time](https://dl.acm.org/doi/10.1145/237814.237880)
 
 ## fairness 
 Theoretical computer-scientific methods aimed at ameliorating social/civic issues. Kinda the coolest thing in the world if I'm being honest.
 
-* *[Fair Grading Algorithms for Randomized Exams](https://arxiv.org/abs/2304.06254)*
-* *[An Algorithmic Approach to Address Course Enrollment Challenges](https://arxiv.org/abs/2304.07982)*
-* *[Group Fairness in Dynamic Refugee Assignment](https://arxiv.org/abs/2301.10642)*
-* *[Towards Accounting for Stakes in Voting](https://drive.google.com/file/d/1LTYrPV10W2dmvXYdztnGidoG_CjrMMYB/view)*
+* [Fair Grading Algorithms for Randomized Exams](https://arxiv.org/abs/2304.06254)
+* [An Algorithmic Approach to Address Course Enrollment Challenges](https://arxiv.org/abs/2304.07982)
+* [Group Fairness in Dynamic Refugee Assignment](https://arxiv.org/abs/2301.10642)
+* [Towards Accounting for Stakes in Voting](https://drive.google.com/file/d/1LTYrPV10W2dmvXYdztnGidoG_CjrMMYB/view)
 * [Simulation as Experiment: An Empirical Critique of Simulation Research on Recommender Systems](https://arxiv.org/abs/2107.14333)
 * [T-RECS: A Simulation Tool to Study the Societal Impact of Recommender Systems](https://arxiv.org/abs/2107.08959)
 * [New Algorithms and Applications for Risk-Limiting Audits](https://arxiv.org/abs/2305.04050)
@@ -52,13 +53,12 @@ Theoretical computer-scientific methods aimed at ameliorating social/civic issue
 ## miscellaneous theory 
 Pseudorandomness, complexity theory, computability theory, algorithms, etc.
 
-* **[Pseudorandomness for Permutation Branching Programs Without the Group Theory](https://eccc.weizmann.ac.il/report/2012/083/)**
-* *[Derandomization of Euclidean Random Walks](https://www.math.toronto.edu/ilia/Research/euclid1.pdf)*
+* [Derandomization of Euclidean Random Walks](https://www.math.toronto.edu/ilia/Research/euclid1.pdf)
 * [Pseudorandomness](https://people.seas.harvard.edu/~salil/pseudorandomness/pseudorandomness-published-Dec12.pdf)
 * [Theory of Unconditional Pseudorandom Generators](https://eccc.weizmann.ac.il/report/2023/019/)
-* *[Approximate Counting](http://www.cs.cmu.edu/~odonnell/complexity/docs/lecture6-abridged.pdf)*
-* *[Slicing the Truth](https://www.math.uchicago.edu/~drh/Papers/Papers/rm.pdf)*
-* *[An Improved Exponential-Time Approximation Algorithm for Fully-Alternating Games Against Nature](https://ieeexplore.ieee.org/document/9317956)*
+* [Approximate Counting](http://www.cs.cmu.edu/~odonnell/complexity/docs/lecture6-abridged.pdf)
+* [Slicing the Truth](https://www.math.uchicago.edu/~drh/Papers/Papers/rm.pdf)
+* [An Improved Exponential-Time Approximation Algorithm for Fully-Alternating Games Against Nature](https://ieeexplore.ieee.org/document/9317956)*
 * [Mathematical Logic and Computation](https://www.cambridge.org/core/books/mathematical-logic-and-computation/300504EAD8410522CE0C27595D2825A2)
 * [Reconciling Individual Probability Forecasts](https://arxiv.org/abs/2209.01687)
 * [Actual Causality](https://mitpress.mit.edu/9780262537131/actual-causality/)
@@ -66,12 +66,12 @@ Pseudorandomness, complexity theory, computability theory, algorithms, etc.
 ## cryptography
 Mostly, this has been following a rabbit hole of watermarking large language models, and exploring connections to steganography, a cryptographic primitive for hiding secret text in ostensibly innocuous covertext.
 
-* **[Combinatorial properties of frameproof and traceability codes](https://ieeexplore.ieee.org/abstract/document/915661)**
-* **[Optimal probabilistic fingerprint codes](https://dl.acm.org/doi/abs/10.1145/1346330.1346335?casa_token=-4b4S3eUmWsAAAAA%3AEPzch7tsglsMf6tNym5L3XTF3OAbwHjovfh07BbbvA0lnGuyVzuuO0HJrkWaCOPq3N4vMVb7OBc1AI0)**
-* *[Publicly Detectable Watermarking for Language Models](https://eprint.iacr.org/2023/1661.pdf)*
-* *[Locality in Coding Theory](https://www.cs.princeton.edu/techreports/2018/016.pdf)*
-* *[Essential Coding Theory](https://cse.buffalo.edu/faculty/atri/courses/coding-theory/book/web-coding-book.pdf)*
-* *[Toward a Theory of Steganography](http://www.cs.cmu.edu/~hopper/thesis.pdf)*
+* [Combinatorial properties of frameproof and traceability codes](https://ieeexplore.ieee.org/abstract/document/915661)
+* [Optimal probabilistic fingerprint codes](https://dl.acm.org/doi/abs/10.1145/1346330.1346335?casa_token=-4b4S3eUmWsAAAAA%3AEPzch7tsglsMf6tNym5L3XTF3OAbwHjovfh07BbbvA0lnGuyVzuuO0HJrkWaCOPq3N4vMVb7OBc1AI0)
+* [Publicly Detectable Watermarking for Language Models](https://eprint.iacr.org/2023/1661.pdf)
+* [Locality in Coding Theory](https://www.cs.princeton.edu/techreports/2018/016.pdf)
+* [Essential Coding Theory](https://cse.buffalo.edu/faculty/atri/courses/coding-theory/book/web-coding-book.pdf)
+* [Toward a Theory of Steganography](http://www.cs.cmu.edu/~hopper/thesis.pdf)
 * [Robust Distortion-free Watermarks for Language Models](https://arxiv.org/abs/2307.15593)
 * [Undetectable Watermarks for Language Models](https://eprint.iacr.org/2023/763)
 * [Steganography and Error-Correcting Codes](https://www.sciencedirect.com/science/article/abs/pii/S0165168406004257)
