@@ -66,6 +66,7 @@ Pseudorandomness, complexity theory, computability theory, algorithms, etc.
 ## cryptography
 Mostly, this has been following a rabbit hole of watermarking large language models, and exploring connections to steganography, a cryptographic primitive for hiding secret text in ostensibly innocuous covertext.
 
+* [Random-Error-Resilient Tracing Algorithm for a Collusion-Secure Fingerprinting Code](https://ipsj.ixsq.nii.ac.jp/ej/index.php?action=pages_view_main&active_action=repository_action_common_download&item_id=11509&item_no=1&attribute_id=1&file_no=1&page_id=13&block_id=8)
 * [A Collusion-Secure Fingerprinting Code Reduced by Chinese Remaindering and Its Random-Error Resilience](https://link.springer.com/chapter/10.1007/3-540-45496-9_22)
 * [Combinatorial properties of frameproof and traceability codes](https://ieeexplore.ieee.org/abstract/document/915661)
 * [Optimal probabilistic fingerprint codes](https://dl.acm.org/doi/abs/10.1145/1346330.1346335?casa_token=-4b4S3eUmWsAAAAA%3AEPzch7tsglsMf6tNym5L3XTF3OAbwHjovfh07BbbvA0lnGuyVzuuO0HJrkWaCOPq3N4vMVb7OBc1AI0)
