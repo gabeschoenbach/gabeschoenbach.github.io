@@ -36,6 +36,15 @@ def create_html_file(text_file):
 <link rel="icon" type="image/x-icon" href="/images/favicon.png">
 <link rel="stylesheet" type="text/css" href="main.css">
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MSDX0D4TH9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MSDX0D4TH9');
+</script>
 <body>\n''')
         file.write(content)
         file.write('\n</body>\n</html>\n')
@@ -89,7 +98,7 @@ def add_toc_and_entries(file_path):
 
 def add_webpage_list_to_index():
     index_file = "index.html"
-    lineno = 13
+    lineno = 22 
     html_files = [filename for filename in os.listdir(".") if filename.endswith(".html")]
     html_files.sort(reverse=True)
     
