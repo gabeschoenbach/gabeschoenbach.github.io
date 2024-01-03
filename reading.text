@@ -23,6 +23,7 @@ My all-time favorite papers, for one reason or another. No particular order.
 ## graph theory
 Primarily stuff about random sampling of spanning trees or graph partitions.
 
+* [Nearly Tight Bounds For Differentially Private Min $s-t$ and Multiway Cut](https://arxiv.org/abs/2312.16370)
 * [Sampling Balanced Forests of Grids in Polynomial Time](https://arxiv.org/abs/2310.15152)
 * [Random walks and electric networks](https://arxiv.org/pdf/math/0001057.pdf)
 * [Triangle Counting with Local Edge Differential Privacy](https://drops.dagstuhl.de/opus/volltexte/2023/18104/pdf/LIPIcs-ICALP-2023-52.pdf)
@@ -66,6 +67,11 @@ Pseudorandomness, complexity theory, computability theory, algorithms, etc.
 ## cryptography
 Mostly, this has been following a rabbit hole of watermarking large language models, and exploring connections to steganography, a cryptographic primitive for hiding secret text in ostensibly innocuous covertext.
 
+* [Symmetric Tardos fingerprinting codes for arbitrary alphabet sizes](https://link.springer.com/article/10.1007/s10623-007-9142-x)
+* [On the Design and Optimization of Tardos Probabilistic Fingerprinting Codes](https://www.researchgate.net/publication/220722285_On_the_Design_and_Optimization_of_Tardos_Probabilistic_Fingerprinting_Codes)
+* [Error- and Collusion-Secure Fingerprinting for Digital Data](https://link.springer.com/content/pdf/10.1007/10719724_10.pdf)
+* [On error-correcting fingerprinting codese for use with watermarking](https://link.springer.com/article/10.1007/s00530-007-0096-7)
+* [Robust fingerprinting codes: a near optimal construction](https://www.research.ed.ac.uk/en/publications/robust-fingerprinting-codes-a-near-optimal-construction)
 * [Robust Fingerprinting Codes: A Near Optimal Construction](https://dl.acm.org/doi/abs/10.1145/1866870.1866873)
 * [Random-Error-Resilient Tracing Algorithm for a Collusion-Secure Fingerprinting Code](https://ipsj.ixsq.nii.ac.jp/ej/index.php?action=pages_view_main&active_action=repository_action_common_download&item_id=11509&item_no=1&attribute_id=1&file_no=1&page_id=13&block_id=8)
 * [A Collusion-Secure Fingerprinting Code Reduced by Chinese Remaindering and Its Random-Error Resilience](https://link.springer.com/chapter/10.1007/3-540-45496-9_22)
