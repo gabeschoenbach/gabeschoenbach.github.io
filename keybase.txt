@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/gabesquared
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://gabey.zip
+  * I am gabesquared (https://keybase.io/gabesquared) on keybase.
+  * I have a public key ASCXgE936AJSbgOA8kRV9Pd4LNOATjqI437oXIQxV8hXogo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012097804f77e802526e0380f24455f4f7782cd3804e3a88e37ee85c843157c857a20a",
+      "host": "keybase.io",
+      "kid": "012097804f77e802526e0380f24455f4f7782cd3804e3a88e37ee85c843157c857a20a",
+      "uid": "b370de2201c0877082ba33192194ab19",
+      "username": "gabesquared"
+    },
+    "merkle_root": {
+      "ctime": 1704735641,
+      "hash": "03265f14fdaf44421464da6125efe8dc2c43474b8c4cbd317a846c1798211c5a8df7ff6cd295631f4662953db8152f5a7c11804d70d3eb5c66c323d5c7e5ed84",
+      "hash_meta": "9b7edc4ca3d09c1c54009ba43a95b0cbe8ba5f1a10be484a9dc2cf8c8c44d1c6",
+      "seqno": 25322589
+    },
+    "service": {
+      "entropy": "uqgjeKzBlBe482vdiJp2bTiE",
+      "hostname": "gabey.zip",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.2.6"
+  },
+  "ctime": 1704735655,
+  "expire_in": 504576000,
+  "prev": "2e6809d9ae5e7e29ea752b123151907e33e95ae2afb851f148583b3781b63a30",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgl4BPd+gCUm4DgPJEVfT3eCzTgE46iON+6FyEMVfIV6IKp3BheWxvYWTESpcCCMQgLmgJ2a5efinqdSsSMVGQfjPpWuKvuFHxSFg7N4G2OjDEIBLMGO3NgsFbGu2x1hKjqa1P6MtT90bkLmiX+RWyvY+VAgHCo3NpZ8RAbkhrIiwR7hJGT+XSQuKpfnaROTgyL3nYgHYckEVW3hHSs4gfOIyZBGnXKGYOBY1V4Jh0L/Mh07UUHhQOs0X8DahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIH4YwNBC6+ISrE4sBIOKOkY0yid5+Ux7J26+T12VZ48Ko3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/gabesquared
+
+==================================================================
