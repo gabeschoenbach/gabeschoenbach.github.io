@@ -64,29 +64,44 @@ Pseudorandomness, complexity theory, computability theory, algorithms, etc.
 * [Reconciling Individual Probability Forecasts](https://arxiv.org/abs/2209.01687)
 * [Actual Causality](https://mitpress.mit.edu/9780262537131/actual-causality/)
 
-## cryptography
-Mostly, this has been following a rabbit hole of watermarking large language models, and exploring connections to steganography, a cryptographic primitive for hiding secret text in ostensibly innocuous covertext.
-
+## coding theory
+Codes are sets (whose elements are *codewords*) which have a variety of applications — data compression, error correction, cryptography, etc. 
+Most of these papers have to do with fingerprinting codes, can aid anti-piracy enforcement by identifying users who pirate digital content.
 * [Symmetric Tardos fingerprinting codes for arbitrary alphabet sizes](https://link.springer.com/article/10.1007/s10623-007-9142-x)
 * [On the Design and Optimization of Tardos Probabilistic Fingerprinting Codes](https://www.researchgate.net/publication/220722285_On_the_Design_and_Optimization_of_Tardos_Probabilistic_Fingerprinting_Codes)
 * [Error- and Collusion-Secure Fingerprinting for Digital Data](https://link.springer.com/content/pdf/10.1007/10719724_10.pdf)
-* [On error-correcting fingerprinting codese for use with watermarking](https://link.springer.com/article/10.1007/s00530-007-0096-7)
-* [Robust fingerprinting codes: a near optimal construction](https://www.research.ed.ac.uk/en/publications/robust-fingerprinting-codes-a-near-optimal-construction)
+* [On error-correcting fingerprinting codes for use with watermarking](https://link.springer.com/article/10.1007/s00530-007-0096-7)
 * [Robust Fingerprinting Codes: A Near Optimal Construction](https://dl.acm.org/doi/abs/10.1145/1866870.1866873)
 * [Random-Error-Resilient Tracing Algorithm for a Collusion-Secure Fingerprinting Code](https://ipsj.ixsq.nii.ac.jp/ej/index.php?action=pages_view_main&active_action=repository_action_common_download&item_id=11509&item_no=1&attribute_id=1&file_no=1&page_id=13&block_id=8)
 * [A Collusion-Secure Fingerprinting Code Reduced by Chinese Remaindering and Its Random-Error Resilience](https://link.springer.com/chapter/10.1007/3-540-45496-9_22)
 * [Combinatorial properties of frameproof and traceability codes](https://ieeexplore.ieee.org/abstract/document/915661)
 * [Optimal probabilistic fingerprint codes](https://dl.acm.org/doi/abs/10.1145/1346330.1346335?casa_token=-4b4S3eUmWsAAAAA%3AEPzch7tsglsMf6tNym5L3XTF3OAbwHjovfh07BbbvA0lnGuyVzuuO0HJrkWaCOPq3N4vMVb7OBc1AI0)
-* [Publicly Detectable Watermarking for Language Models](https://eprint.iacr.org/2023/1661.pdf)
 * [Locality in Coding Theory](https://www.cs.princeton.edu/techreports/2018/016.pdf)
 * [Essential Coding Theory](https://cse.buffalo.edu/faculty/atri/courses/coding-theory/book/web-coding-book.pdf)
-* [Toward a Theory of Steganography](http://www.cs.cmu.edu/~hopper/thesis.pdf)
+
+## watermarking large-language models
+How can we use cryptographic techniques to ensure that we can distinguish between text coming from an LLM vs. a human? 
+How do these techniques connect to steganography, a cryptographic primitive for hiding secret text in ostensibly innocuous covertext?
+
+* [Publicly Detectable Watermarking for Language Models](https://eprint.iacr.org/2023/1661.pdf)
 * [Robust Distortion-free Watermarks for Language Models](https://arxiv.org/abs/2307.15593)
 * [Undetectable Watermarks for Language Models](https://eprint.iacr.org/2023/763)
 * [Steganography and Error-Correcting Codes](https://www.sciencedirect.com/science/article/abs/pii/S0165168406004257)
+* [Toward a Theory of Steganography](http://www.cs.cmu.edu/~hopper/thesis.pdf)
 * [Meteor: Cryptographically Secure Steganography for Realistic Distributions](https://eprint.iacr.org/2021/686)
 * [SALSA: Attacking Lattice Cryptography with Transformers](https://arxiv.org/abs/2207.04785)
 * [Planting Undetectable Backdoors in Machine Learning Models](https://arxiv.org/abs/2204.06974)
+
+## structured encryption
+How can we use cryptographic techniques to allow clients to store private data on an untrustworthy server, and allow them to
+query their data without their queries or responses being seen by the server?
+
+* [Computationally Volume-Hiding Structured Encryption](https://www.iacr.org/archive/eurocrypt2019/114760319/114760319.pdf)
+* [Dynamic Searchable Encryption via Blind Storage](https://ieeexplore.ieee.org/document/6956592)
+* [Mitigating Leakage in Secure Cloud-Hosted Data Structures: Volume-Hiding for Multi-Maps via Hashing](https://eprint.iacr.org/2019/1292)
+* [Software Protection and Simulation on Oblivious RAMs](https://dl.acm.org/doi/10.1145/233551.233553)
+* [SoK: Plausibly Deniable Storage](https://arxiv.org/abs/2111.12809)
+
 
 ## differential privacy
 A differentially-private algorithm is a randomized function of a dataset whose outputs shouldn't change much whether or not your data is in the dataset.
@@ -109,8 +124,6 @@ Mostly related to data privacy law, questions about what data deletion should me
 * [Adaptive Machine Unlearning](https://arxiv.org/abs/2106.04378)
 * [Deletion Inference, Reconstruction, and Compliance in Machine (Un)learning](https://arxiv.org/abs/2202.03460)
 * [Having your Privacy Cake and Eating it Too: Platform-supported Auditing of Social Media Algorithms for Public Interest](https://arxiv.org/abs/2207.08773)
-* [Software Protection and Simulation on Oblivious RAMs](https://dl.acm.org/doi/10.1145/233551.233553)
-* [SoK: Plausibly Deniable Storage](https://arxiv.org/abs/2111.12809)
 
 ## online voting
 I went down a rabbit hole about whether we can run fair/secure elections online. Turns out it's hard!
