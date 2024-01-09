@@ -80,7 +80,7 @@ Most of these papers have to do with fingerprinting codes, can aid anti-piracy e
 * [Locality in Coding Theory](https://www.cs.princeton.edu/techreports/2018/016.pdf)
 * [Essential Coding Theory](https://cse.buffalo.edu/faculty/atri/courses/coding-theory/book/web-coding-book.pdf)
 
-## watermarking large-language models
+## watermarking large language models
 How can we use cryptographic techniques to ensure that we can distinguish between text coming from an LLM vs. a human? 
 How do these techniques connect to steganography, a cryptographic primitive for hiding secret text in ostensibly innocuous covertext?
 
