@@ -115,7 +115,7 @@ A differentially-private algorithm is a randomized function of a dataset whose o
 * [A Firm Foundation for Private Data Analysis](https://dl.acm.org/doi/10.1145/1866739.1866758)
 
 ## law and cs
-Mostly related to data privacy law, questions about what data deletion should mean, and deniable encryption.
+Mostly related to data privacy law and questions about what data deletion should mean.
 
 * [Can the Government Compel Decryption? Don’t Trust, Verify](https://arxiv.org/abs/2208.02905)
 * [General Data Protection Runtime: Enforcing Transparent GDPR Compliance for Existing Applications](https://www.ias.cs.tu-bs.de/publications/gdpr_tainting.pdf)
