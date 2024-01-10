@@ -139,7 +139,7 @@ I went down a rabbit hole about whether we can run fair/secure elections online.
 * [RemoteVote and SAFE Vote: Towards Usable End-to-End Verification for Vote-by-Mail](https://arxiv.org/abs/2111.08662)
 
 ## internet
-Mostly from a [Networks](http://people.cs.uchicago.edu/~ravenben/classes/333/) class I took with Ben Zhao. We read some of the original Internet papers (near the bottom of this list) and worked our way up to modern stuff.
+Mostly from a [networks](http://people.cs.uchicago.edu/~ravenben/classes/333/) class I took with Ben Zhao. We read some of the original Internet papers (near the bottom of this list) and worked our way up to modern stuff.
 
 * [Tussle in Cyberspace: Defining Tomorrow's Internet](https://groups.csail.mit.edu/ana/Publications/PubPDFs/Tussle2002.pdf)
 * [Inferring Internet Denial-of-Service Activity](https://cseweb.ucsd.edu/~savage/papers/UsenixSec01.pdf)
