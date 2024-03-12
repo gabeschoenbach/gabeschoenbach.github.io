@@ -99,6 +99,7 @@ How do these techniques connect to steganography, a cryptographic primitive for 
 How can we use cryptographic techniques to allow clients to store private data on an untrustworthy server, and allow them to
 query their data without their queries or responses being seen by the server?
 
+* [Cuckoo Hashing in Cryptography: Optimal Parameters, Robustness and Applications](https://eprint.iacr.org/2022/1455)
 * [Computationally Volume-Hiding Structured Encryption](https://www.iacr.org/archive/eurocrypt2019/114760319/114760319.pdf)
 * [Dynamic Searchable Encryption via Blind Storage](https://ieeexplore.ieee.org/document/6956592)
 * [Mitigating Leakage in Secure Cloud-Hosted Data Structures: Volume-Hiding for Multi-Maps via Hashing](https://eprint.iacr.org/2019/1292)
@@ -119,6 +120,8 @@ A differentially-private algorithm is a randomized function of a dataset whose o
 ## law and cs
 Mostly related to data privacy law and questions about what data deletion should mean.
 
+* [Talkin' 'Bout AI Generation: Copyright and the Generative-AI Supply Chain](https://arxiv.org/ftp/arxiv/papers/2309/2309.08133.pdf)
+* [Error-Tolerant e-Discovery Protocols](https://arxiv.org/pdf/2401.17952.pdf)
 * [The Structure and Legal Interpretation of Computer Programs](https://james.grimmelmann.net/files/articles/structure-and-legal-interpretation.pdf)
 * [Can the Government Compel Decryption? Don’t Trust, Verify](https://arxiv.org/abs/2208.02905)
 * [General Data Protection Runtime: Enforcing Transparent GDPR Compliance for Existing Applications](https://www.ias.cs.tu-bs.de/publications/gdpr_tainting.pdf)
