@@ -120,6 +120,7 @@ A differentially-private algorithm is a randomized function of a dataset whose o
 ## law and cs
 Mostly related to data privacy law and questions about what data deletion should mean.
 
+* [On Provable Copyright Protection for Generative Models](https://arxiv.org/pdf/2302.10870.pdf)
 * [Talkin' 'Bout AI Generation: Copyright and the Generative-AI Supply Chain](https://arxiv.org/ftp/arxiv/papers/2309/2309.08133.pdf)
 * [Error-Tolerant e-Discovery Protocols](https://arxiv.org/pdf/2401.17952.pdf)
 * [The Structure and Legal Interpretation of Computer Programs](https://james.grimmelmann.net/files/articles/structure-and-legal-interpretation.pdf)
