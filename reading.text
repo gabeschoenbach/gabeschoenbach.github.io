@@ -85,6 +85,7 @@ Most of these papers have to do with fingerprinting codes, which can aid anti-pi
 How can we use cryptographic techniques to ensure that we can distinguish between text coming from an LLM vs. a human? 
 How do these techniques connect to steganography, a cryptographic primitive for hiding secret text in ostensibly innocuous covertext?
 
+* [A Watermark for Large Language Models](https://arxiv.org/pdf/2301.10226.pdf)
 * [Permute-and-Flip: An optimally robust and watermarkable decoder for LLMs](https://arxiv.org/abs/2402.05864)
 * [Publicly Detectable Watermarking for Language Models](https://eprint.iacr.org/2023/1661.pdf)
 * [Robust Distortion-free Watermarks for Language Models](https://arxiv.org/abs/2307.15593)
@@ -106,6 +107,11 @@ query their data without their queries or responses being seen by the server?
 * [Software Protection and Simulation on Oblivious RAMs](https://dl.acm.org/doi/10.1145/233551.233553)
 * [SoK: Plausibly Deniable Storage](https://arxiv.org/abs/2111.12809)
 
+## cryptography and machine learning
+Mostly from Aloni's crypto seminar in Spring 2024.
+
+* [On Provable Copyright Protection for Generative Model](https://arxiv.org/abs/2302.10870)
+* [Interactive Proofs for Verifying Machine Learning](https://drops.dagstuhl.de/storage/00lipics/lipics-vol185-itcs2021/LIPIcs.ITCS.2021.41/LIPIcs.ITCS.2021.41.pdf)
 
 ## differential privacy
 A differentially-private algorithm is a randomized function of a dataset whose outputs shouldn't change much whether or not your data is in the dataset.
