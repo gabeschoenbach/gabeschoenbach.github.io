@@ -63,6 +63,7 @@ Pseudorandomness, complexity theory, computability theory, algorithms, etc.
 * [Mathematical Logic and Computation](https://www.cambridge.org/core/books/mathematical-logic-and-computation/300504EAD8410522CE0C27595D2825A2)
 * [Reconciling Individual Probability Forecasts](https://arxiv.org/abs/2209.01687)
 * [Actual Causality](https://mitpress.mit.edu/9780262537131/actual-causality/)
+* [A general reinforcement learning algorithm that masters chess, shogi and Go through self-play](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphazero-shedding-new-light-on-chess-shogi-and-go/alphazero_preprint.pdf)
 
 ## coding theory
 Codes are sets (whose elements are *codewords*) which have a variety of applications — data compression, error correction, cryptography, etc. 
@@ -82,7 +83,7 @@ Most of these papers have to do with fingerprinting codes, which can aid anti-pi
 * [Essential Coding Theory](https://cse.buffalo.edu/faculty/atri/courses/coding-theory/book/web-coding-book.pdf)
 
 ## watermarking language models 
-How can we use cryptographic techniques to ensure that we can distinguish between text coming from an LLM vs. a human? 
+How can we use (cryptographic) techniques to ensure that we can distinguish between text coming from an LLM vs. a human? 
 How do these techniques connect to steganography, a cryptographic primitive for hiding secret text in ostensibly innocuous covertext?
 
 * [A Watermark for Large Language Models](https://arxiv.org/pdf/2301.10226.pdf)
@@ -113,6 +114,9 @@ Mostly from Aloni's crypto seminar in Spring 2024.
 * [On Provable Copyright Protection for Generative Model](https://arxiv.org/abs/2302.10870)
 * [Interactive Proofs for Verifying Machine Learning](https://drops.dagstuhl.de/storage/00lipics/lipics-vol185-itcs2021/LIPIcs.ITCS.2021.41/LIPIcs.ITCS.2021.41.pdf)
 * [Theoretical Limits of Provable Security Against Model Extraction by Efficient Observational Defenses](https://eprint.iacr.org/2022/1039.pdf)
+* [Covert Learning: How to Learn with an Untrusted Intermediary](https://eprint.iacr.org/2021/764)
+* [On Low-End Obfuscation and Learning](https://drops.dagstuhl.de/storage/00lipics/lipics-vol251-itcs2023/LIPIcs.ITCS.2023.23/LIPIcs.ITCS.2023.23.pdf)
+
 
 ## differential privacy
 A differentially-private algorithm is a randomized function of a dataset whose outputs shouldn't change much whether or not your data is in the dataset.
