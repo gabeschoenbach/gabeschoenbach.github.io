@@ -176,9 +176,10 @@ Mostly from a [networks](http://people.cs.uchicago.edu/~ravenben/classes/333/) c
 * [Analysis of the Increase and Decrease Algorithms for Congestion Avoidance in Computer Networks](https://www.cse.wustl.edu/~jain/papers/ftp/cong_av.pdf)
 * [End-to-End Arguments in System Design](https://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf)
 
-## blog posts
+## blog posts and notes
 Interesting blog posts that I've read or want to read....
 
 * [How Computers Use Numbers](https://mabi.tmpinc.io/numbers/)
 * [Bounding Sums or Integrals of Non-Negative Quantities](https://terrytao.wordpress.com/2023/09/30/bounding-sums-or-integrals-of-non-negative-quantities/)
 * [Are random regular hypergraphs almost Ramanujan?](https://hackmd.io/@kmarw/BJ5fbNWgT)
+* [A brief note on estimates of binomail coefficients](http://discretemath.imp.fu-berlin.de/DMII-2015-16/binomials.pdf)
