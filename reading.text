@@ -101,6 +101,8 @@ How do these techniques connect to steganography, a cryptographic primitive for 
 How can we use cryptographic techniques to allow clients to store private data on an untrustworthy server, and allow them to
 query their data without their queries or responses being seen by the server?
 
+
+* [Rich Queries on Encypted Data: Beyond Exact Matches](https://eprint.iacr.org/2015/927)
 * [Cuckoo Hashing in Cryptography: Optimal Parameters, Robustness and Applications](https://eprint.iacr.org/2022/1455)
 * [Computationally Volume-Hiding Structured Encryption](https://www.iacr.org/archive/eurocrypt2019/114760319/114760319.pdf)
 * [Dynamic Searchable Encryption via Blind Storage](https://ieeexplore.ieee.org/document/6956592)
