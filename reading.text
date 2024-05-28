@@ -102,6 +102,7 @@ How can we use cryptographic techniques to allow clients to store private data o
 query their data without their queries or responses being seen by the server?
 
 
+* [Delegatable Pseudorandom Functions and Applications](https://eprint.iacr.org/2013/379.pdf)
 * [Rich Queries on Encypted Data: Beyond Exact Matches](https://eprint.iacr.org/2015/927)
 * [Cuckoo Hashing in Cryptography: Optimal Parameters, Robustness and Applications](https://eprint.iacr.org/2022/1455)
 * [Computationally Volume-Hiding Structured Encryption](https://www.iacr.org/archive/eurocrypt2019/114760319/114760319.pdf)
