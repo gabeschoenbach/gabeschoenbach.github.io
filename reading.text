@@ -86,6 +86,7 @@ Most of these papers have to do with fingerprinting codes, which can aid anti-pi
 How can we use (cryptographic) techniques to ensure that we can distinguish between text coming from an LLM vs. a human? 
 How do these techniques connect to steganography, a cryptographic primitive for hiding secret text in ostensibly innocuous covertext?
 
+* [Edit Distance Robust Watermarks for Language Models](https://arxiv.org/pdf/2406.02633)
 * [A Watermark for Large Language Models](https://arxiv.org/pdf/2301.10226.pdf)
 * [Permute-and-Flip: An optimally robust and watermarkable decoder for LLMs](https://arxiv.org/abs/2402.05864)
 * [Publicly Detectable Watermarking for Language Models](https://eprint.iacr.org/2023/1661.pdf)
