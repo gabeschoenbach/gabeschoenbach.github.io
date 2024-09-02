@@ -2,9 +2,7 @@
 [go back ↰](https://gabey.zip)
 
 ## gerrychain 
-I have been a long-time and active contributor to [GerryChain](https://github.com/mggg/GerryChain), a Python library that uses Markov chain Monte Carlo (MCMC) sampling to build ensembles of political districting plans. Our software has been used extensively in recent legal cases concerning partisan and racial gerrymandering. In particular, GerryChain was used in [Allen v. Milligan](https://www.scotusblog.com/case-files/cases/merrill-v-milligan-2/), where the Supreme Court struck down Alabama's Congressional districting plan for violating Section 2 of the Voting Rights Act.
-
-I am most proud of fine-tuning local search techniques and adding county and municipality awareness to the Markov chains that GerryChain supports.
+I have been a long-time and active contributor to [GerryChain](https://github.com/mggg/GerryChain), a Python library that uses Markov chain Monte Carlo (MCMC) sampling to build ensembles of political districting plans. In particular, I have worked on fine-tuning local search techniques, and added county and municipality awareness to our Markov chains. I'm proud that our software has been used extensively in recent legal cases concerning partisan and racial gerrymandering. In particular, GerryChain was used in [Allen v. Milligan](https://www.scotusblog.com/case-files/cases/merrill-v-milligan-2/), where the Supreme Court struck down Alabama's Congressional districting plan for violating Section 2 of the Voting Rights Act.
 
 ## pyei 
 Developed in collaboration with [Dr. Karin C. Knudson](https://karinknudson.com/) ([DISC](https://disc.tufts.edu)) and [Dr. Amy Becker](https://www.linkedin.com/in/amariah-becker-90225980/), [PyEI](https://github.com/mggg/ecological-inference) is a Python package for ecological inference and ecological regression. We developed this tool with two goals in mind:

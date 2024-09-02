@@ -40,7 +40,7 @@ Primarily stuff about random sampling of spanning trees or graph partitions.
 * [Generating Random Spanning Trees More Quickly than the Cover Time](https://dl.acm.org/doi/10.1145/237814.237880)
 
 ## fairness 
-Theoretical computer-scientific methods aimed at ameliorating social/civic issues. Kinda the coolest thing in the world if I'm being honest.
+Theoretical computer-scientific methods aimed at ameliorating social/civic issues.
 
 * [Fair Grading Algorithms for Randomized Exams](https://arxiv.org/abs/2304.06254)
 * [An Algorithmic Approach to Address Course Enrollment Challenges](https://arxiv.org/abs/2304.07982)
@@ -186,4 +186,4 @@ Interesting blog posts that I've read or want to read....
 * [How Computers Use Numbers](https://mabi.tmpinc.io/numbers/)
 * [Bounding Sums or Integrals of Non-Negative Quantities](https://terrytao.wordpress.com/2023/09/30/bounding-sums-or-integrals-of-non-negative-quantities/)
 * [Are random regular hypergraphs almost Ramanujan?](https://hackmd.io/@kmarw/BJ5fbNWgT)
-* [A brief note on estimates of binomail coefficients](http://discretemath.imp.fu-berlin.de/DMII-2015-16/binomials.pdf)
+* [A brief note on estimates of binomial coefficients](http://discretemath.imp.fu-berlin.de/DMII-2015-16/binomials.pdf)
