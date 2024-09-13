@@ -2,14 +2,16 @@
 [go back ↰](https://gabey.zip)
 
 ## on my mind
-I just got back from the [DIMACS Tutorial on Fine-Grained Complexity Theory](http://dimacs.rutgers.edu/events/details?eID=2764) at Rutgers University. Met a lot of great researchers as we learned about fine-grained reductions and how to separate different polynomial-time problems! Last month, I submitted my [first paper](https://ia.cr/2024/759) of the PhD, a joint work with [Aloni Cohen](aloni.net) and [Alex Hoover](axhoover.com) that extends definitions for watermarking language models and presents the first black-box reductions between existing schemes. I also just moved up to Buena Park with my friend [Jake](https://jaketg97.github.io/Jacob-Toner-Gosselin/).
+Our paper on [watermarking language models for many adaptive users](https://ia.cr/2024/759) just got accepted to the IEEE Symposium on Security & Privacy! Joint work with [Aloni](aloni.net) and [Alex](axhoover.com), we extend definitions for watermarking language models and present the first black-box reductions between existing schemes.
+
+I'm mourning the impending end of Chicago's summer, but also looking forward to the fall, when I'll be TAing for Aloni's undergrad Intro to Cryptography course.
 
 ## theory lunch
-I am organizing the [UChicago CS Theory Group](http://theory.cs.uchicago.edu/index.php)'s weekly theory lunch seminar. We'll be starting back up again in the fall; please reach out to me if you would like to give a 30-minute presentation! 
+I am organizing the [UChicago CS Theory Group](http://theory.cs.uchicago.edu/index.php)'s weekly theory lunch seminar. We'll be starting back up again in October; please reach out to me if you would like to give a 30-minute presentation! 
 
-## upcoming travel
-(default: Buena Park, Chicago)
+## running the marathon
+I got the last-minute opportunity to run the Chicago Marathon, so am ramping up for a quick four-week training cycle to get in shape. I will NOT race it for time, I tell myself again and again, borne back ceaselessly into my past D3 collegiate running days.
 
 ---
 
-Last updated July 2024.
+Last updated September 2024.
