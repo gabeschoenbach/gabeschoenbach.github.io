@@ -87,6 +87,7 @@ Most of these papers have to do with fingerprinting codes, which can aid anti-pi
 How can we use (cryptographic) techniques to ensure that we can distinguish between text coming from an LLM vs. a human? 
 How do these techniques connect to steganography, a cryptographic primitive for hiding secret text in ostensibly innocuous covertext?
 
+* [A Waterlog for Detecting and Tracing Synthetic Text from Large Language Models](https://eprint.iacr.org/2024/1424.pdf)
 * [Edit Distance Robust Watermarks for Language Models](https://arxiv.org/pdf/2406.02633)
 * [A Watermark for Large Language Models](https://arxiv.org/pdf/2301.10226.pdf)
 * [Permute-and-Flip: An optimally robust and watermarkable decoder for LLMs](https://arxiv.org/abs/2402.05864)
@@ -186,8 +187,9 @@ These are some papers I don't want to forget about, but haven't yet read.
 
 * [Fast Learning Requries Good Memory: A Time-Space Lower Bound for Parity Learning](https://arxiv.org/pdf/1602.05161)
 * [Cryptographic Assumptions: A Position Paper](https://eprint.iacr.org/2015/907.pdf)
-* [A Waterlog for Detecting and Tracing Synthetic Text from Large Language Models](https://eprint.iacr.org/2024/1424.pdf)
 * [On the use of dynamical systems in cryptography](https://arxiv.org/pdf/2405.03038)
+* [Exploring the Approximability Landscape of 3SUM](https://drops.dagstuhl.de/storage/00lipics/lipics-vol308-esa2024/LIPIcs.ESA.2024.34/LIPIcs.ESA.2024.34.pdf)
+* [From Donkeys to Kings in Tournaments](https://drops.dagstuhl.de/storage/00lipics/lipics-vol308-esa2024/LIPIcs.ESA.2024.3/LIPIcs.ESA.2024.3.pdf)
 
 ## blog posts and notes
 Interesting blog posts that I've read or want to read....
