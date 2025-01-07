@@ -24,7 +24,8 @@ def generate_redirects():
                 f.writelines(lines)
         
         # Generate HTML file
-        html_file = os.path.splitext(file_path)[0] + ".html"
+        redirect_head = redirect_file.split(".")[0]
+        html_file = redirect_head + ".html"
         html_content = f"""
 <!DOCTYPE html>
 <html lang="en">
@@ -32,7 +33,7 @@ def generate_redirects():
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="icon.png"/>
-    <title>Alex</title>
+    <title>Gabe Schoenbach</title>
     <link rel="stylesheet" type="text/css" href="main.css">
     <meta http-equiv="refresh" content="0; url={url}" />
 </head>

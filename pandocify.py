@@ -127,6 +127,7 @@ def prettify_html(file_path):
         file.write(prettified_content)
 
 def main():
+    subprocess.run(["python", "gen_redirects.py"])
     text_files = [file for file in os.listdir() if file.endswith('.text')]
     for text_file in text_files:
         html_file = text_file.split('.')[0] + '.html'
