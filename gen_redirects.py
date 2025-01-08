@@ -2,8 +2,6 @@ import os
 import re
 
 def generate_redirects():
-    print("Compiling...")
-
     # Directory containing the .redirect files
     redirects_dir = "redirects/"
     redirect_files = [f for f in os.listdir(redirects_dir) if f.endswith(".redirect")]
@@ -46,7 +44,7 @@ def generate_redirects():
         with open(html_file, "w") as f:
             f.write(html_content)
 
-    print("Redirects generated!!")
+    print("Generated redirects.")
 
 if __name__ == "__main__":
     generate_redirects()
