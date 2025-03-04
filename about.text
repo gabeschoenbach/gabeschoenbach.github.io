@@ -2,13 +2,12 @@
 [go back ↰](https://gabey.zip)
 
 ## quick stuff 
-I grew up in Glen Ellen, California, in the heart of Sonoma Valley and greatly miss the trails, mountains, and wildlife back home. But I love exploring the many neighborhoods of Chicago, running and biking the lakefront, and seeing live performances around the city. I'm obsessed with making the dumbest possible jokes, as frequently as my friends will allow.
-
-I'm a [third-year PhD student](https://cs.uchicago.edu/people/gabe-schoenbach/) in the Computer Science department at the University of Chicago, advised by [Aloni Cohen](https://aloni.net). I'm a theoretician interested in combinatorics, graph theory, and cryptography.  
+I'm a [third-year PhD student](https://cs.uchicago.edu/people/gabe-schoenbach/) in the Computer Science department at the University of Chicago, advised by [Aloni Cohen](https://aloni.net). I'm a theoretician interested in cryptography, combinatorics, and graph theory.  
+ 
+I grew up in Glen Ellen, California and greatly miss the trails, mountains, and wildlife back home. But I love exploring the many neighborhoods of Chicago, running and biking the lakefront, and seeing live performances around the city. I'm obsessed with making the dumbest possible jokes, as frequently as my friends will allow.
 
 ## research
-I like thinking about questions that are easy to state and hard to solve. I'm currently interested in [searchable encryption](https://en.wikipedia.org/wiki/Searchable_symmetric_encryption). I also like thinking about combinatorial questions about [graphs](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)), in particular those about [trees](https://en.wikipedia.org/wiki/Tree_(graph_theory)) and [partitions](https://en.wikipedia.org/wiki/Partition_of_a_set), all of which stem from my work in [computational redistricting](https://mggg.org/gerrybook.html).
-
+I like thinking about questions that are easy to state and hard to solve. Combinatorial problems with applications in cryptography are especially exciting. I'm currently interested in [searchable encryption](https://en.wikipedia.org/wiki/Searchable_symmetric_encryption) and proofs of space. My work in [computational redistricting](https://mggg.org/gerrybook.html), which has left me with a handful of favorite open questions about about [trees](https://en.wikipedia.org/wiki/Tree_(graph_theory)) and [partitions](https://en.wikipedia.org/wiki/Partition_of_a_set).
 
 Before starting my PhD, I spent two years at the [MGGG Redistricting Lab](https://mggg.org/people/mduchin/) at Tufts University, working with [Moon Duchin](https://mggg.org/people/mduchin/) to connect the academic study of computational redistricting with real-world applications. Many of my past papers and projects stem from that work.
 
