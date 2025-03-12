@@ -7,7 +7,7 @@ I'm a [third-year PhD student](https://cs.uchicago.edu/people/gabe-schoenbach/) 
 I grew up in Glen Ellen, California and greatly miss the trails, mountains, and wildlife back home. But I love exploring the many neighborhoods of Chicago, running and biking the lakefront, and seeing live performances around the city. I'm obsessed with making the dumbest possible jokes, as frequently as my friends will allow.
 
 ## research
-I like thinking about questions that are easy to state and hard to solve. Combinatorial problems with applications in cryptography are especially exciting. I'm currently interested in [searchable encryption](https://en.wikipedia.org/wiki/Searchable_symmetric_encryption) and proofs of space, and have worked on [watermarking the outputs of language models](https://eprint.iacr.org/2024/759). 
+I like thinking about questions that are easy to state and hard to solve. Combinatorial problems with applications in cryptography are especially exciting. I'm currently interested in [searchable encryption](https://en.wikipedia.org/wiki/Searchable_symmetric_encryption), proofs of space, and [watermarking the outputs of language models](https://eprint.iacr.org/2024/759). 
 
 Before starting my PhD, I spent two years at the [MGGG Redistricting Lab](https://mggg.org/people/mduchin/) at Tufts University, working with [Moon Duchin](https://mggg.org/people/mduchin/) to connect the academic study of [computational redistricting](https://mggg.org/gerrybook.html) with real-world applications. Many of my past papers and projects stem from that work, and I remain quite interested in combinatorial problems about trees and graph partitions.
 
