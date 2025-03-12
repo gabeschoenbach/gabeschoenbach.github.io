@@ -1,0 +1,231 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CV
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%
+% File: main.tex
+%
+% Title: \titletext
+% Authors:
+%
+
+\def\llncs{0}       % 1 = using llncs
+\def\showoverflow{0}% 1 = show overflows when llncs=1
+\def\setmargin{1}   % 0 = do not set; 1 = set
+\def\papertype{0}   % 0 = letter; 1 = a4;
+\def\anonymous{0}   % 0 = non-anonymous; 1 = anonymous
+\def\myfontsize{0}  % 0 = 10pt; 1 = 11pt; 0 is what llncs uses;
+\def\savespace{0}   % 0 = do not save space; 1 = save space
+\def\addtoc{0}      % 0 = exclude TOC; 1 = include TOC
+\def\fullversion{1} % 0 = short version; 1 = full version
+\def\instplace{0}
+\def\authnotes{0}   % 0 = authnotes off; 1 = authnotes on
+\def\gamesinapp{1}  % 1 = with game-based defs&proofs in appendix; 0 = no games
+\def\submission{1}  % 0 = normal version; 1 = submission version
+
+
+\ifnum\llncs=1
+  \ifnum\papertype=0
+    \ifnum\myfontsize=0
+      \ifnum\showoverflow=1
+        \documentclass[twoside,envcountsame,runningheads,draft]{llncs}
+      \else
+        \documentclass[twoside,envcountsame,runningheads]{llncs}
+      \fi
+    \else
+      \ifnum\showoverflow=1
+        \documentclass[11pt,twoside,envcountsame,runningheads,draft]{llncs}
+      \else
+        \documentclass[11pt,twoside,envcountsame,runningheads]{llncs}
+      \fi
+      % mandatory line for EUROCRYPT 2009 submission
+      \usepackage[letterpaper,hmargin=1in,vmargin=1.25in]{geometry}
+    \fi
+  \else
+    \ifnum\myfontsize=0
+      \ifnum\showoverflow=1
+        \documentclass[a4paper,twoside,envcountsame,runningheads,draft]{llncs}
+      \else
+        \documentclass[a4paper,twoside,envcountsame,runningheads]{llncs}
+      \fi
+    \else
+      \ifnum\showoverflow=1
+        \documentclass[a4paper,11pt,twoside,envcountsame,runningheads,draft]{llncs}
+      \else
+        \documentclass[a4paper,11pt,twoside,envcountsame,runningheads]{llncs}
+      \fi
+    \fi
+  \fi
+\else
+  \ifnum\papertype=0
+    \ifnum\myfontsize=0
+      \documentclass[twoside]{article}
+    \else
+      \documentclass[11pt,twoside]{article}
+    \fi
+  \else
+    \ifnum\myfontsize=0
+      \documentclass[a4paper,twoside]{article}
+    \else
+      \documentclass[11pt,a4paper,twoside]{article}
+    \fi
+  \fi
+\fi
+
+\usepackage{graphicx}
+
+\iffalse
+\ifnum\llncs=1
+  \usepackage[dvips]{graphics}
+\else
+  \ifnum\anonymous=0
+    \usepackage[dvips,
+    pdftitle={David Cash},
+    pdfauthor={David Cash},
+    pdfpagelabels=true, linktocpage=true,
+    %pagebackref% references from biblio to pages where cited
+    ]{hyperref}
+  \else
+    \usepackage[dvips,
+    pdftitle={David Cash},
+    pdfauthor={}, pdfpagelabels=true, linktocpage=true]{hyperref}
+  \fi
+\fi
+\fi
+
+\ifnum\savespace=1
+\usepackage{times}
+\fi
+
+\usepackage{url}
+\usepackage{latexsym}
+\usepackage{amscd,amsmath}
+\usepackage{amsfonts}
+\usepackage{color}
+\usepackage{float}
+\usepackage{longtable}
+\usepackage{multibib}
+\newcites{conf}{Publications}
+% \newcites{journal}{Journal Versions of Conference Publications}
+
+% --- -----------------------------------------------------------------
+% --- Page styles
+% --- -----------------------------------------------------------------
+
+\ifnum\setmargin=1
+  \ifnum\papertype=1
+    % a4 paper size
+    \setlength{\textwidth}{16.0cm}
+    \setlength{\textheight}{23.0cm}
+    \setlength{\evensidemargin}{-0.04cm}
+    \setlength{\oddsidemargin}{-0.04cm}
+    \setlength{\topmargin}{-0.5cm}
+    \setlength{\headheight}{0.5cm}
+  \else
+    % letter paper size
+    \setlength{\evensidemargin}{-0.15in}
+    \setlength{\oddsidemargin}{-0.15in}
+    \setlength{\textwidth}{6.8in}
+    \setlength{\textheight}{9.45in}
+    \setlength{\topmargin}{-0.35in}
+    \setlength{\headheight}{0in}
+    \setlength{\headsep}{0in}
+    \setlength{\footskip}{0.5in}
+  \fi
+\fi
+
+% --- -----------------------------------------------------------------
+% --- Document-specific definitions.
+% --- -----------------------------------------------------------------
+
+\input{header}
+
+% --- -----------------------------------------------------------------
+% --- The document starts here.
+% --- -----------------------------------------------------------------
+
+\begin{document}
+% \nociteconf{
+% DG:DS23
+% }
+% \nociteconf{
+% ACGKMS24,
+% PKC:ACDGHKT22,
+% USENIX:XNCR21,
+% ACNS:CasNgRiv21,
+% CCS:FMACRST20,
+% TCC:CasDruHoo20,
+% C:ACDW20,
+% SP:LNGCU19,
+% VLDB:BGCRS18,
+% TCC:CasZha18,
+% AC:CLOZZ18,
+% C:ACFK17,
+% SP:WGLBCR17,
+% CCS:DurDuBCas16,
+% TCC:BCTW16,
+% TCC:CasKilTes16,
+% COCOON:ZCWYC16,
+% CCS:CGPR15,
+% PKC:CasDowKil15,
+% EC:CasTes14,
+% NDSS:CJJJKR14,
+% C:CJJKRS13,
+% EC:CasKueWic13,
+% PKC:CasGreHoh12,
+% AC:BelCasMil11,
+% CCS:BelCasKee11,
+% EC:KPCJV11,
+% C:BelCas10,
+% EC:ABBC10,
+% EC:CHKP10,
+% AC:BCFW09,
+% C:ACPS09,
+% DIM:BauBloCas08,
+% EC:CasKilSho08,
+% TCC:CDDLLW07}
+
+% \nocitejournal{
+% JC:KPVCJ17,
+% JC:CasKupWic17,
+% JC:CHKP12,
+% FIXEDJC:CasKilSho09}
+
+\input{intro}
+\input{education}
+\input{interests}
+\input{awards}
+\input{experience}
+\input{pubs}
+% \input{advising}
+% \input{teaching}
+% \input{outreach}
+\input{talks}
+\input{service}
+% \input{funding}
+
+% --- -----------------------------------------------------------------
+% --- The Bibliography.
+% --- -----------------------------------------------------------------
+
+
+%\ifnum\savespace=0
+%\begin{small}
+%\def\shortbib{1}
+%\bibliographystyle{abbrv}
+%\bibliography{abbrev_short,crypto,rka}
+% \bibliographystyle{alpha}
+% \bibliography{abbrev,crypto}
+%\end{small}
+%\else
+%\begin{small}
+%\def\shortbib{1}
+%\bibliographystyle{abbrv}
+%\bibliography{abbrev_short,crypto,rka}
+%\end{small}
+%\fi
+
+
+\end{document}

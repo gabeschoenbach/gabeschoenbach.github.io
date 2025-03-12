@@ -1,0 +1,267 @@
+\begin{thebibliography}{10}
+
+\bibitem{PKC:ACDGHKT22}
+Erik Aronesty, David Cash, Yevgeniy Dodis, Daniel~H. Gallancy, Christopher
+  Higley, Harish Karthikeyan, and Oren Tyson.
+\newblock Encapsulated search index: Public-key, sub-linear, distributed, and
+  delegatable.
+\newblock In {\em Public-Key Cryptography - PKC 2022 - 25th IACR International
+  Conference on Practice and Theory of Public Key Cryptography}, 2022.
+
+\bibitem{USENIX:XNCR21}
+Min Xu, Armin Namavari, David Cash, and Thomas Ristenpart.
+\newblock Searching encrypted data with size-locked indexes.
+\newblock In Michael Bailey and Rachel Greenstadt, editors, {\em USENIX
+  Security 2021: 30th {USENIX} Security Symposium}, pages 4025--4042. {USENIX}
+  Association, August 2021.
+
+\bibitem{ACNS:CasNgRiv21}
+David Cash, Ruth Ng, and Adam Rivkin.
+\newblock Improved structured encryption for {SQL} databases via hybrid
+  indexing.
+\newblock In Kazue Sako and Nils~Ole Tippenhauer, editors, {\em ACNS 21: 19th
+  International Conference on Applied Cryptography and Network Security,
+  Part~II}, volume 12727 of {\em Lecture Notes in Computer Science}, pages
+  480--510. Springer, Heidelberg, June 2021.
+
+\bibitem{CCS:FMACRST20}
+Francesca Falzon, Evangelia~Anna Markatou, Akshima, David Cash, Adam Rivkin,
+  Jesse Stern, and Roberto Tamassia.
+\newblock Full database reconstruction in two dimensions.
+\newblock In Jay Ligatti, Xinming Ou, Jonathan Katz, and Giovanni Vigna,
+  editors, {\em ACM CCS 2020: 27th Conference on Computer and Communications
+  Security}, pages 443--460. {ACM} Press, November 2020.
+
+\bibitem{TCC:CasDruHoo20}
+David Cash, Andrew Drucker, and Alexander Hoover.
+\newblock A lower bound for one-round oblivious {RAM}.
+\newblock In Rafael Pass and Krzysztof Pietrzak, editors, {\em TCC~2020: 18th
+  Theory of Cryptography Conference, Part~I}, volume 12550 of {\em Lecture
+  Notes in Computer Science}, pages 457--485. Springer, Heidelberg, November
+  2020.
+
+\bibitem{C:ACDW20}
+Akshima, David Cash, Andrew Drucker, and Hoeteck Wee.
+\newblock Time-space tradeoffs and short collisions in merkle-damg{\r a}rd hash
+  functions.
+\newblock In Daniele Micciancio and Thomas Ristenpart, editors, {\em Advances
+  in Cryptology -- {CRYPTO}~2020, Part~I}, volume 12170 of {\em Lecture Notes
+  in Computer Science}, pages 157--186. Springer, Heidelberg, August 2020.
+
+\bibitem{SP:LNGCU19}
+Enze Liu, Amanda Nakanishi, Maximilian Golla, David Cash, and Blase Ur.
+\newblock Reasoning analytically about password-cracking software.
+\newblock In {\em 2019 {IEEE} Symposium on Security and Privacy}, pages
+  380--397. {IEEE} Computer Society Press, May 2019.
+
+\bibitem{VLDB:BGCRS18}
+Vincent Bindschaedler, Paul Grubbs, David Cash, Thomas Ristenpart, and Vitaly
+  Shmatikov.
+\newblock The {T}ao of inference in privacy-protected databases.
+\newblock {\em {PVLDB}}, 11(11):1715--1728, 2018.
+
+\bibitem{TCC:CasZha18}
+David Cash and Cong Zhang.
+\newblock A ciphertext-size lower bound for order-preserving encryption with
+  limited leakage.
+\newblock In Amos Beimel and Stefan Dziembowski, editors, {\em TCC~2018: 16th
+  Theory of Cryptography Conference, Part~II}, volume 11240 of {\em Lecture
+  Notes in Computer Science}, pages 159--176. Springer, Heidelberg, November
+  2018.
+
+\bibitem{AC:CLOZZ18}
+David Cash, Feng-Hao Liu, Adam O'Neill, Mark Zhandry, and Cong Zhang.
+\newblock Parameter-hiding order revealing encryption.
+\newblock In Thomas Peyrin and Steven Galbraith, editors, {\em Advances in
+  Cryptology -- {ASIACRYPT}~2018, Part~I}, volume 11272 of {\em Lecture Notes
+  in Computer Science}, pages 181--210. Springer, Heidelberg, December 2018.
+
+\bibitem{C:ACFK17}
+Benedikt Auerbach, David Cash, Manuel Fersch, and Eike Kiltz.
+\newblock Memory-tight reductions.
+\newblock In Jonathan Katz and Hovav Shacham, editors, {\em Advances in
+  Cryptology -- {CRYPTO}~2017, Part~I}, volume 10401 of {\em Lecture Notes in
+  Computer Science}, pages 101--132. Springer, Heidelberg, August 2017.
+
+\bibitem{SP:WGLBCR17}
+Liang Wang, Paul Grubbs, Jiahui Lu, Vincent Bindschaedler, David Cash, and
+  Thomas Ristenpart.
+\newblock Side-channel attacks on shared search indexes.
+\newblock In {\em 2017 {IEEE} Symposium on Security and Privacy}, pages
+  673--692. {IEEE} Computer Society Press, May 2017.
+
+\bibitem{CCS:DurDuBCas16}
+F.~Bet{\"u}l Durak, Thomas~M. DuBuisson, and David Cash.
+\newblock What else is revealed by order-revealing encryption?
+\newblock In Edgar~R. Weippl, Stefan Katzenbeisser, Christopher Kruegel,
+  Andrew~C. Myers, and Shai Halevi, editors, {\em ACM CCS 2016: 23rd Conference
+  on Computer and Communications Security}, pages 1155--1166. {ACM} Press,
+  October 2016.
+
+\bibitem{TCC:BCTW16}
+Zvika Brakerski, David Cash, Rotem Tsabary, and Hoeteck Wee.
+\newblock Targeted homomorphic attribute-based encryption.
+\newblock In Martin Hirt and Adam~D. Smith, editors, {\em TCC~2016-B: 14th
+  Theory of Cryptography Conference, Part~II}, volume 9986 of {\em Lecture
+  Notes in Computer Science}, pages 330--360. Springer, Heidelberg,
+  October~/~November 2016.
+
+\bibitem{TCC:CasKilTes16}
+David Cash, Eike Kiltz, and Stefano Tessaro.
+\newblock Two-round man-in-the-middle security from {LPN}.
+\newblock In Eyal Kushilevitz and Tal Malkin, editors, {\em TCC~2016-A: 13th
+  Theory of Cryptography Conference, Part~I}, volume 9562 of {\em Lecture Notes
+  in Computer Science}, pages 225--248. Springer, Heidelberg, January 2016.
+
+\bibitem{COCOON:ZCWYC16}
+Cong Zhang, David Cash, Xiuhua Wang, Xiaoqi Yu, and Sherman S.~M. Chow.
+\newblock Combiners for chosen-ciphertext security.
+\newblock In Thang~N. Dinh and My~T. Thai, editors, {\em Computing and
+  Combinatorics : 22nd International Conference, COCOON 2016, August 2-4, 2016,
+  Proceedings}, pages 257--268. Springer International Publishing, 2016 2016.
+
+\bibitem{CCS:CGPR15}
+David Cash, Paul Grubbs, Jason Perry, and Thomas Ristenpart.
+\newblock Leakage-abuse attacks against searchable encryption.
+\newblock In Indrajit Ray, Ninghui Li, and Christopher Kruegel, editors, {\em
+  ACM CCS 2015: 22nd Conference on Computer and Communications Security}, pages
+  668--679. {ACM} Press, October 2015.
+
+\bibitem{PKC:CasDowKil15}
+David Cash, Rafael Dowsley, and Eike Kiltz.
+\newblock Digital signatures from strong {RSA} without prime generation.
+\newblock In Jonathan Katz, editor, {\em PKC~2015: 18th International
+  Conference on Theory and Practice of Public Key Cryptography}, volume 9020 of
+  {\em Lecture Notes in Computer Science}, pages 217--235. Springer,
+  Heidelberg, March~/~April 2015.
+
+\bibitem{EC:CasTes14}
+David Cash and Stefano Tessaro.
+\newblock The locality of searchable symmetric encryption.
+\newblock In Phong~Q. Nguyen and Elisabeth Oswald, editors, {\em Advances in
+  Cryptology -- {EUROCRYPT}~2014}, volume 8441 of {\em Lecture Notes in
+  Computer Science}, pages 351--368. Springer, Heidelberg, May 2014.
+
+\bibitem{NDSS:CJJJKR14}
+David Cash, Joseph Jaeger, Stanislaw Jarecki, Charanjit~S. Jutla, Hugo
+  Krawczyk, Marcel-Catalin Rosu, and Michael Steiner.
+\newblock Dynamic searchable encryption in very-large databases: Data
+  structures and implementation.
+\newblock In {\em {ISOC} Network and Distributed System Security Symposium --
+  {NDSS}~2014}. The Internet Society, February 2014.
+
+\bibitem{C:CJJKRS13}
+David Cash, Stanislaw Jarecki, Charanjit~S. Jutla, Hugo Krawczyk,
+  Marcel-Catalin Rosu, and Michael Steiner.
+\newblock Highly-scalable searchable symmetric encryption with support for
+  {Boolean} queries.
+\newblock In Ran Canetti and Juan~A. Garay, editors, {\em Advances in
+  Cryptology -- {CRYPTO}~2013, Part~I}, volume 8042 of {\em Lecture Notes in
+  Computer Science}, pages 353--373. Springer, Heidelberg, August 2013.
+
+\bibitem{EC:CasKueWic13}
+David Cash, Alptekin K{\"u}p{\c c}{\"u}, and Daniel Wichs.
+\newblock Dynamic proofs of retrievability via oblivious {RAM}.
+\newblock In Thomas Johansson and Phong~Q. Nguyen, editors, {\em Advances in
+  Cryptology -- {EUROCRYPT}~2013}, volume 7881 of {\em Lecture Notes in
+  Computer Science}, pages 279--295. Springer, Heidelberg, May 2013.
+
+\bibitem{JC:CHKP12}
+David Cash, Dennis Hofheinz, Eike Kiltz, and Chris Peikert.
+\newblock Bonsai trees, or how to delegate a lattice basis.
+\newblock {\em Journal of Cryptology}, 25(4):601--639, October 2012.
+
+\bibitem{PKC:CasGreHoh12}
+David Cash, Matthew Green, and Susan Hohenberger.
+\newblock New definitions and separations for circular security.
+\newblock In Marc Fischlin, Johannes Buchmann, and Mark Manulis, editors, {\em
+  PKC~2012: 15th International Conference on Theory and Practice of Public Key
+  Cryptography}, volume 7293 of {\em Lecture Notes in Computer Science}, pages
+  540--557. Springer, Heidelberg, May 2012.
+
+\bibitem{AC:BelCasMil11}
+Mihir Bellare, David Cash, and Rachel Miller.
+\newblock Cryptography secure against related-key attacks and tampering.
+\newblock In Dong~Hoon Lee and Xiaoyun Wang, editors, {\em Advances in
+  Cryptology -- {ASIACRYPT}~2011}, volume 7073 of {\em Lecture Notes in
+  Computer Science}, pages 486--503. Springer, Heidelberg, December 2011.
+
+\bibitem{CCS:BelCasKee11}
+Mihir Bellare, David Cash, and Sriram Keelveedhi.
+\newblock Ciphers that securely encipher their own keys.
+\newblock In Yan Chen, George Danezis, and Vitaly Shmatikov, editors, {\em ACM
+  CCS 2011: 18th Conference on Computer and Communications Security}, pages
+  423--432. {ACM} Press, October 2011.
+
+\bibitem{EC:KPCJV11}
+Eike Kiltz, Krzysztof Pietrzak, David Cash, Abhishek Jain, and Daniele Venturi.
+\newblock Efficient authentication from hard learning problems.
+\newblock In Kenneth~G. Paterson, editor, {\em Advances in Cryptology --
+  {EUROCRYPT}~2011}, volume 6632 of {\em Lecture Notes in Computer Science},
+  pages 7--26. Springer, Heidelberg, May 2011.
+
+\bibitem{C:BelCas10}
+Mihir Bellare and David Cash.
+\newblock Pseudorandom functions and permutations provably secure against
+  related-key attacks.
+\newblock In Tal Rabin, editor, {\em Advances in Cryptology -- {CRYPTO}~2010},
+  volume 6223 of {\em Lecture Notes in Computer Science}, pages 666--684.
+  Springer, Heidelberg, August 2010.
+
+\bibitem{EC:ABBC10}
+Tolga Acar, Mira Belenkiy, Mihir Bellare, and David Cash.
+\newblock Cryptographic agility and its relation to circular encryption.
+\newblock In Henri Gilbert, editor, {\em Advances in Cryptology --
+  {EUROCRYPT}~2010}, volume 6110 of {\em Lecture Notes in Computer Science},
+  pages 403--422. Springer, Heidelberg, May~/~June 2010.
+
+\bibitem{EC:CHKP10}
+David Cash, Dennis Hofheinz, Eike Kiltz, and Chris Peikert.
+\newblock Bonsai trees, or how to delegate a lattice basis.
+\newblock In Henri Gilbert, editor, {\em Advances in Cryptology --
+  {EUROCRYPT}~2010}, volume 6110 of {\em Lecture Notes in Computer Science},
+  pages 523--552. Springer, Heidelberg, May~/~June 2010.
+
+\bibitem{AC:BCFW09}
+Alexandra Boldyreva, David Cash, Marc Fischlin, and Bogdan Warinschi.
+\newblock Foundations of non-malleable hash and one-way functions.
+\newblock In Mitsuru Matsui, editor, {\em Advances in Cryptology --
+  {ASIACRYPT}~2009}, volume 5912 of {\em Lecture Notes in Computer Science},
+  pages 524--541. Springer, Heidelberg, December 2009.
+
+\bibitem{FIXEDJC:CasKilSho09}
+David Cash, Eike Kiltz, and Victor Shoup.
+\newblock The twin {Diffie}-{Hellman} problem and applications.
+\newblock {\em Journal of Cryptology}, 22(4):470--504, October 2009.
+
+\bibitem{C:ACPS09}
+Benny Applebaum, David Cash, Chris Peikert, and Amit Sahai.
+\newblock Fast cryptographic primitives and circular-secure encryption based on
+  hard learning problems.
+\newblock In Shai Halevi, editor, {\em Advances in Cryptology --
+  {CRYPTO}~2009}, volume 5677 of {\em Lecture Notes in Computer Science}, pages
+  595--618. Springer, Heidelberg, August 2009.
+
+\bibitem{DIM:BauBloCas08}
+David Bauer, Douglas~M. Blough, and David Cash.
+\newblock Minimal information disclosure with efficiently verifiable
+  credentials.
+\newblock In Elisa Bertino and Kenji Takahashi, editors, {\em Proceedings of
+  the 4th Workshop on Digital Identity Management}, pages 15--24, October 2008.
+
+\bibitem{EC:CasKilSho08}
+David Cash, Eike Kiltz, and Victor Shoup.
+\newblock The twin {Diffie}-{Hellman} problem and applications.
+\newblock In Nigel~P. Smart, editor, {\em Advances in Cryptology --
+  {EUROCRYPT}~2008}, volume 4965 of {\em Lecture Notes in Computer Science},
+  pages 127--145. Springer, Heidelberg, April 2008.
+
+\bibitem{TCC:CDDLLW07}
+David Cash, Yan~Zong Ding, Yevgeniy Dodis, Wenke Lee, Richard~J. Lipton, and
+  Shabsi Walfish.
+\newblock Intrusion-resilient key exchange in the bounded retrieval model.
+\newblock In Salil~P. Vadhan, editor, {\em TCC~2007: 4th Theory of Cryptography
+  Conference}, volume 4392 of {\em Lecture Notes in Computer Science}, pages
+  479--498. Springer, Heidelberg, February 2007.
+
+\end{thebibliography}

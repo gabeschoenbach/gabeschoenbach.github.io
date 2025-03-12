@@ -1,0 +1,282 @@
+% !TEX root = cv.tex
+
+\newcommand{\mytab}{\hspace*{10mm}}
+\newcommand{\cvpub}[3]{\item \fTitle{#1} \\ \fAuthor{#2} \\ \textit{#3}}
+\newcommand{\cvpubinline}[3]{\item \fTitle{#1} \\ \fAuthor{#2}, #3}
+\renewcommand{\cvpubinline}[3]{\cvpub{#1}{#2}{#3}}
+\newcommand{\forthcoming}{\textnormal{(Forthcoming)}}
+\newcommand{\submission}{\textnormal{(In Submission)}}
+\newcommand{\distinguished}{\textnormal{(\textbf{Best Paper})}}
+\newcommand{\invited}{\textbf{Invited}}
+\newcommand{\fJournal}[1]{\uline{#1}}
+
+\newif\ifnumberpubs
+\numberpubstrue
+
+
+\newif\ifmanuscripts
+\manuscriptstrue
+
+
+
+% \renewcommand{\cvpub}[3]{\item
+% \begin{tabular*}{\textwidth}[t]{@{}p{.8\textwidth}@{\extracolsep{\fill}}r@{}}
+%   \fTitle{#1} & STOC 2016\\
+%   \fAuthor{#2} & \\
+%   #3 &
+% \end{tabular*}}
+
+%% Questions
+% Organizing different publications into different sections?
+
+\section{Publications}
+Publications are listed in chronological order. Authors are listed in alphabetical order as is customary in theoretical computer science, except where indicated by an asterisk. Scientific journals are underlined.
+Publications marked ``Best Paper'' received the highest award conferred for research at the corresponding conference.
+
+\subsection{Computer Science (Journals and Peer-Reviewed Conferences)}
+\ifnumberpubs
+  \begin{enumerate}
+\else
+  \begin{itemize}[label={}]
+\fi
+
+
+\cvpub%
+{Faster Optimal Planning with Partial Order Pruning}%
+{$^*$David Leo Wright Hall, Aloni Cohen, David Burkett, Dan Klein}%
+{International Conference on Automated Planning and Scheduling (ICAPS), 2013}%
+{}%
+
+\cvpub%
+{Aggregate Pseudorandom Functions and Connections to Learning}%
+{Aloni Cohen, Shafi Goldwasser, Vinod Vaikuntanathan}%
+{Theory of Cryptography Conference (TCC), 2015}%
+{}%
+
+\cvpub%
+{Multilinear Pseudorandom Functions}%
+{Aloni Cohen, Justin Holmgren}%
+{International Colloquium on Automata, Languages, and Programming (ICALP), 2015}%
+{}%
+
+\cvpub%
+{The GGM Function Family Is a Weakly One-Way Family of Functions}%
+{Aloni Cohen, Saleet Klein}%
+{Theory of Cryptography Conference (TCC), 2016}%
+{}%
+
+\cvpub%
+{Cryptography with Updates}%
+{Prabhanjan Ananth, Aloni Cohen, Abhishek Jain}%
+{\Eurocrypt, 2017}%
+{}
+
+\cvpub%
+{Watermarking Cryptographic Capabilities}%
+{Aloni Cohen, Justin Holmgren, Ryo Nishimaki, Vinod Vaikuntanathan, Daniel Wichs}%
+{\fJournal{SIAM Journal on Computing}, 47(6), 2018 \\
+Symposium on Theory of Computing (STOC), 2016}%
+
+\cvpub%
+{What About Bob? The Inadequacy of CPA Security for Proxy Re-encryption}%
+{Aloni Cohen}%
+{International Workshop on Public Key Cryptography (PKC), 2019}%
+{}
+
+\cvpub%
+{From Soft Classifiers to Hard Decisions: How Fair Can We Be?}%
+{Ran Canetti, Aloni Cohen, Nishanth Dikkala, Govind Ramnarayan, Sarah Scheffler, \\Adam Smith}%
+{Conference on Fairness, Accountability, and Transparency (FAccT), 2019}%
+{}
+
+\cvpub%
+{Linear Program Reconstruction in Practice}%
+{Aloni Cohen, Kobbi Nissim}%
+{\fJournal{Journal of Privacy and Confidentiality}, 10(1), 2020}%
+{}
+
+\cvpub%
+{Towards Formalizing the GDPR Notion of Singling Out}%
+{Aloni Cohen, Kobbi Nissim}%
+{\fJournal{Proceedings of the National Academy of Sciences} (PNAS), 117(15), 2020}%
+{}
+
+\cvpub%
+{Census TopDown: Investigating the Impacts of Differential Privacy on Redistricting}%
+{Aloni Cohen, Moon Duchin, JN Matthews, Bhushan Suwal}%
+{Symposium on the Foundations of Responsible Computing (FORC), 2021}
+
+\cvpub%
+{Private Numbers in Public Policy: Census, Differential Privacy, and Redistricting}%
+{Aloni Cohen, Moon Duchin, JN Matthews, Bhushan Suwal}%
+{\fJournal{Harvard Data Science Review}, 2022}
+
+\cvpub%
+{Attacks on Deidentification’s Defenses}%
+{Aloni Cohen}%
+{USENIX Security Symposium, 2022 \distinguished}
+
+\cvpub%
+{Multi-Regulation Computing: Examining the Legal and Policy Questions that Arise from Secure Multiparty Computation}%
+{$^*$Mayank Varia, Aloni Cohen, Andrew Sellars, Azer Bestavros}%
+{ACM Symposium on Computer Science and Law, 2022}
+
+\cvpub%
+{Can the Government Compel Decryption? Don't Trust --- Verify}%
+{Aloni Cohen, Sarah Scheffler, Mayank Varia}%
+{ACM Symposium on Computer Science and Law, 2022}
+
+\cvpub%
+{Control, Confidentiality, and the Right to be Forgotten}
+{Aloni Cohen, Adam Smith, Marika Swanberg, Prashant Nalini Vasudevan}
+{ACM Conference on Computer and Communications Security (CCS), 2023}
+
+
+\cvpub%
+{Private PAC Learning May Be Harder than Online Learning}
+{Mark Bun, Aloni Cohen, Rathin Desai}
+{International Conference on Algorithmic Learning Theory (ALT), 2024 \distinguished}
+
+\ifnumberpubs
+  \end{enumerate}
+\else
+  \end{itemize}
+\fi
+
+\subsection{Law Review Articles}
+
+\ifnumberpubs
+  \begin{enumerate}[resume]
+\else
+  \begin{itemize}[label={}]
+\fi
+
+\cvpub%
+{Compelled Decryption and the Fifth Amendment: Exploring the Technical \\Boundaries}%
+{Aloni Cohen, Sunoo Park}%
+{Harvard Journal of Law \& Technology, 32, 2018}%
+{}
+
+\cvpub%
+{What a Hybrid Legal-Technical Analysis Teaches Us About Privacy Regulation: The Case of Singling Out}%
+{Micah Altman, Aloni Cohen, Kobbi Nissim, Alexandra Wood}%
+{Boston University Journal of Science \& Technology Law, 27(1), 2021}%
+{}
+
+
+\ifnumberpubs
+  \end{enumerate}
+\else
+  \end{itemize}
+\fi
+
+
+\ifmanuscripts
+\subsection{Manuscripts}
+
+\begin{itemize}[label={}]
+
+\cvpub%
+{A Principled Approach to Defining Anonymization as Applied to EU Data Protection Law}
+{Micah Altman, Aloni Cohen, Francesca Falzon, Evangelia Anna Markatou, Kobbi Nissim, Michel Jose Reymond, Sidhant Saraogi, Alexandra Wood}
+{}
+\vspace{-\baselineskip}
+
+\cvpub%
+{Secure Data Distribution in Wireless Networks using Proxy Re-Encryption}
+{Aloni Cohen, David Cousins, Nicholas Genise, Yuriy Polyakov, Saraswathy RV}
+{}
+\vspace{-\baselineskip}
+
+\end{itemize}
+\fi
+
+
+\subsection{Invited Articles}
+% \ifnumberpubs
+%   \begin{enumerate}[resume]
+% \else
+  \begin{itemize}[label={}]
+% \fi
+
+\cvpub%
+{Data Protection's Composition Problem}%
+{$^*$Aaron Fluitt,  Aloni Cohen, Micah Altman, Kobbi Nissim, Salome Viljoen, Alexandra Wood}%
+{European Data Protection Law Review, 5(3), 2019}%
+{}
+% \ifnumberpubs
+%   \end{enumerate}
+% \else
+  \end{itemize}
+% \fi
+
+\subsection{Other}
+\begin{itemize}[label={}]
+    \cvpub%
+    {Toward a 21st Century National Data Infrastructure: Managing Privacy and Confidentiality Risks with Blended Data (Consensus Study Report)}%
+    {Panel on Approaches to Sharing Blended Data in a 21st Century Data Infrastructure (\textit{editors Jerome P. Reiter, Jennifer Park})}%
+    {}%
+    {Committee on National Statistics, National Academies of Sciences, Engineering, and Medicine, 2024}
+\end{itemize}
+
+\subsection{Policy Comments and Briefs}
+% \ifnumberpubs
+%   \begin{enumerate}[resume]
+% \else
+  \begin{itemize}[label={}]
+% \fi
+
+\cvpub{Comment on Proposed CCPA Regulations, }{Aloni Cohen}{First 15-Day Comment Period, 2019}
+
+\cvpub{Comment on Proposed CCPA Regulations}{Aloni Cohen}{45-Day Comment Period, 2019}
+  
+\cvpub%
+{Amicus Brief of Data Privacy Experts}%
+{Ryan Calo, Ran Canetti, Aloni Cohen, Cynthia Dwork, Roxana Geambasu, Somesh Jha, Nitin Kohli, Aleksandra Korolova, Jing Lei, Katrina Ligett, Deirdre K. Mulligan, Omer Reingold, Aaron Roth, Guy N. Rothblum, Benjamin Rubinstein, Aleksandra (Sesa) Slavkovic, Adam Smith, Kunal Talwar, Salil Vadhan, Larry Wasserman, Daniel J. Weitzner}%
+{State of Alabama v United States Department of Commerce, 2021}%
+{}
+
+\cvpub{RFI Response: Privacy-Enhancing Technologies}{Micah Altman, Aloni Cohen, Salil Vadhan}{RFI on Advancing Privacy-Enhancing Technologies\\}{Science and Tehchnology Policy Office, Federal Register Notice 87 FR 35250, 2022}
+
+\cvpub{Comments from Researchers at Boston University and the University of Chicago}{Ran Canetti, Aloni Cohen, Chris Conley, Stacey L. Dogan, Marco Gaboardi, Woodrow Hartzog, Rory Van Loo, Christopher T. Roberston, Katharine Baird Silbaugh}%
+{AI Accountability Policy RFC\\}%
+{National Telecommunications and Information Administration, Federal Register Notice 88 FR 22433, 2023}%
+
+\end{itemize}
+
+
+
+\subsection{Popular Press}
+
+% \ifnumberpubs
+%   \begin{enumerate}[resume]
+% \else
+  \begin{itemize}[label={}]
+% \fi
+
+\cvpubinline%
+{Can you Even Find This Puzzle}%
+{Aloni Cohen, Sunoo Park, Adam Sealfon}%
+{The Boston Globe, 2017}
+
+\cvpubinline%
+{Can You Think Like a Bar Code?}%
+{Aloni Cohen, Sunoo Park, Adam Sealfon}%
+{The Boston Globe, 2017}
+
+\cvpubinline%
+{CCPA, Cross-Device Tracking, and Probabilistic Identifiers}%
+{Aloni Cohen}%
+{Protego Press, 2019}
+
+\cvpubinline%
+{The Boldest American Consumer Privacy Statute in a Generation is in Flux}%
+{Aloni Cohen}%
+{Protego Press, 2020}
+
+
+% \ifnumberpubs
+%   \end{enumerate}
+% \else
+  \end{itemize}
+% \fi

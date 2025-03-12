@@ -1,0 +1,23 @@
+\begin{thebibliography}{1}
+
+\bibitem{JC:KPVCJ17}
+Eike Kiltz, Krzysztof Pietrzak, Daniele Venturi, David Cash, and Abhishek Jain.
+\newblock Efficient authentication from hard learning problems.
+\newblock {\em Journal of Cryptology}, 30(4):1238--1275, October 2017.
+
+\bibitem{JC:CasKupWic17}
+David Cash, Alptekin K{\"u}p{\c c}{\"u}, and Daniel Wichs.
+\newblock Dynamic proofs of retrievability via oblivious {RAM}.
+\newblock {\em Journal of Cryptology}, 30(1):22--57, January 2017.
+
+\bibitem{JC:CHKP12}
+David Cash, Dennis Hofheinz, Eike Kiltz, and Chris Peikert.
+\newblock Bonsai trees, or how to delegate a lattice basis.
+\newblock {\em Journal of Cryptology}, 25(4):601--639, October 2012.
+
+\bibitem{FIXEDJC:CasKilSho09}
+David Cash, Eike Kiltz, and Victor Shoup.
+\newblock The twin {Diffie}-{Hellman} problem and applications.
+\newblock {\em Journal of Cryptology}, 22(4):470--504, October 2009.
+
+\end{thebibliography}

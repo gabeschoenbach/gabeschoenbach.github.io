@@ -1,0 +1,30 @@
+\begin{thebibliography}{1}
+
+\bibitem{JOSS:KSB21}
+Karin~C Knudson, Gabe Schoenbach, and Amariah Becker.
+\newblock Pyei: a python package for ecological inference.
+\newblock {\em Journal of Open Source Software}, 6(64):3397, 2021.
+
+\bibitem{DG:DS23}
+Moon Duchin and Gabe Schoenbach.
+\newblock Redistricting for proportionality.
+\newblock In {\em The Forum}, volume~20, pages 371--393. De Gruyter, 2023.
+
+\bibitem{PA:DDDGMSS23a}
+Daryl DeFord, Natasha Dhamankar, Moon Duchin, Varun Gupta, Mackenzie McPike,
+  Gabe Schoenbach, and Ki~Wan Sim.
+\newblock Implementing partisan symmetry: Problems and paradoxes.
+\newblock {\em Political Analysis}, 31(3):305--324, 2023.
+
+\bibitem{PA:DDDGMSS23b}
+Daryl DeFord, Natasha Dhamankar, Moon Duchin, Varun Gupta, Mackenzie McPike,
+  Gabe Schoenbach, and Ki~Wan Sim.
+\newblock Implementing partisan symmetry: A response to a response.
+\newblock {\em Political Analysis}, 31(3):332--334, 2023.
+
+\bibitem{SP:CHS24}
+Aloni Cohen, Alexander Hoover, and Gabe Schoenbach.
+\newblock Watermarking Language Models for Many Adaptive Users.
+\newblock {\em 2025 IEEE Symposium on Security and Privacy (SP)}, pp. 84-84, 2025.
+
+\end{thebibliography}

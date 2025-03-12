@@ -1,0 +1,59 @@
+\documentclass[11pt]{article}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{ulem}
+\geometry{margin=1in}
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0pt}
+
+\usepackage{ifthen} % for optional args
+% EXAMPLE
+% \newcommand{\card}[1]{
+%   \ifthenelse{\equal{#1}{}}{Empty.}{Nonempty.}
+% }
+
+
+\usepackage{titlesec}
+\titleformat{\section}
+{\titlerule
+\vspace{.8ex}%
+\normalfont\large\scshape}
+{}{1em}{}
+
+\titleformat{\subsection}
+{\normalfont\large\itshape}
+{}{1em}{}
+
+
+\newcommand{\fTitle}[1]{\textsc{#1}}
+\newcommand{\fAuthor}[1]{{#1}}
+\newcommand{\fSchool}[1]{\textbf{#1}}
+\newcommand{\fCourse}[1]{\textsc{#1}}
+
+\newcommand{\MIT}{Massachusetts Institute of Technology}
+\newcommand{\Berkeley}{University of California, Berkeley}
+\newcommand{\UChicago}{University of Chicago}
+\newcommand{\Eurocrypt}{International Conference on the Theory and Applications of Cryptographic Techniques \\(EUROCRYPT)}
+
+
+
+\begin{document}
+\begin{center}
+{\huge\textsc{Aloni\ \ Cohen}}\\
+\vspace{1em}
+% {818--903--1799} \quad {\Large $\cdot$} \quad
+{www.aloni.net} \quad {\Large $\cdot$} \quad
+{aloni@uchicago.edu} \quad {\Large $\cdot$} \quad \today\\
+\end{center}
+
+\input{education}
+\input{employment}
+\input{publications}
+\input{honors}
+\input{talks}
+\input{service}
+\input{advising}
+\input{teaching}
+
+
+\end{document}
