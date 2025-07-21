@@ -6,6 +6,55 @@ import sys
 # 'beautifulsoup4'])
 from bs4 import BeautifulSoup
 
+HTML_HEADER = '''
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>Gabe Schoenbach</title>
+<link rel="icon" type="image/x-icon" href="/images/favicon.png">
+<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MSDX0D4TH9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MSDX0D4TH9');
+</script>\n
+'''
+
+INDEX_SCRIPT='''
+<script>
+function reportClick(event) {
+  const destination = event.currentTarget.getAttribute("data-href");
+
+  // Optional: prevent accidental double clicks
+  event.currentTarget.style.pointerEvents = "none";
+
+  fetch('https://flask-click-logger.onrender.com/log_click', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({
+      screenWidth: window.screen.width,
+      screenHeight: window.screen.height,
+      timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+      language: navigator.language,
+      userAgent: navigator.userAgent,
+    })
+  }).then(() => {
+    window.location.href = destination;
+  }).catch(() => {
+    // Even if logging fails, go to destination
+    window.location.href = destination;
+  });
+} 
+</script>\n
+'''
+
 def update_tagline(file_path):
     # Add a "go back" link to the markdown file
     with open(file_path, 'r') as file:
@@ -27,25 +76,10 @@ def create_html_file(text_file):
     with open(html_file, 'r+') as file:
         content = file.read()
         file.seek(0)
-        file.write('''<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name=viewport content="width=device-width, initial-scale=1">
-<title>Gabe Schoenbach</title>
-<link rel="icon" type="image/x-icon" href="/images/favicon.png">
-<link rel="stylesheet" type="text/css" href="main.css">
-</head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MSDX0D4TH9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-MSDX0D4TH9');
-</script>
-<body>\n''')
+        file.write(HTML_HEADER)
+        if text_file=="index.text":
+            file.write(INDEX_SCRIPT)
+        file.write("<body>\n")
         file.write(content)
         file.write('\n</body>\n</html>\n')
 
@@ -98,7 +132,7 @@ def add_toc_and_entries(file_path):
 
 def add_webpage_list_to_index():
     index_file = "index.html"
-    lineno = 22 
+    lineno = 51
     html_files = [filename for filename in os.listdir(".") if filename.endswith(".html")]
     html_files.sort(reverse=True)
     
@@ -109,7 +143,10 @@ def add_webpage_list_to_index():
     for line in html_files:
         if line != "index.html":
             line = line.split(".")[0]
-            link_entry = f'<div><a href="./{line}.html">{line}</a></div>\n'
+            if line == "about":
+                link_entry = f'<div><a onclick="reportClick(event)" data-href="./{line}.html">{line}</a></div>\n'
+            else:
+                link_entry = f'<div><a href="./{line}.html">{line}</a></div>\n'
             content.insert(lineno - 1, link_entry)
     content.insert(lineno - 1, "<div class=toc>\n")
 
