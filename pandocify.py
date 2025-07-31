@@ -29,12 +29,7 @@ HTML_HEADER = '''
 
 INDEX_SCRIPT='''
 <script>
-function reportClick(event) {
-  const destination = event.currentTarget.getAttribute("data-href");
-
-  // Optional: prevent accidental double clicks
-  event.currentTarget.style.pointerEvents = "none";
-
+function logPageView() {
   fetch('https://flask-click-logger.onrender.com/log_click', {
     method: 'POST',
     headers: {'Content-Type': 'application/json'},
@@ -44,14 +39,12 @@ function reportClick(event) {
       timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
       language: navigator.language,
       userAgent: navigator.userAgent,
+      page: "index.html"
     })
-  }).then(() => {
-    window.location.href = destination;
-  }).catch(() => {
-    // Even if logging fails, go to destination
-    window.location.href = destination;
   });
-} 
+}
+
+window.addEventListener("DOMContentLoaded", logPageView);
 </script>\n
 '''
 
@@ -132,7 +125,7 @@ def add_toc_and_entries(file_path):
 
 def add_webpage_list_to_index():
     index_file = "index.html"
-    lineno = 51
+    lineno = 43
     html_files = [filename for filename in os.listdir(".") if filename.endswith(".html")]
     html_files.sort(reverse=True)
     
@@ -143,10 +136,7 @@ def add_webpage_list_to_index():
     for line in html_files:
         if line != "index.html":
             line = line.split(".")[0]
-            if line == "about":
-                link_entry = f'<div><a onclick="reportClick(event)" data-href="./{line}.html">{line}</a></div>\n'
-            else:
-                link_entry = f'<div><a href="./{line}.html">{line}</a></div>\n'
+            link_entry = f'<div><a href="./{line}.html">{line}</a></div>\n'
             content.insert(lineno - 1, link_entry)
     content.insert(lineno - 1, "<div class=toc>\n")
 
