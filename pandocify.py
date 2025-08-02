@@ -30,6 +30,8 @@ HTML_HEADER = '''
 INDEX_SCRIPT='''
 <script>
 function logPageView() {
+  const segments = window.location.pathname.split("/").filter(Boolean);
+  const path = segments.length > 0 ? segments[segments.length - 1] : "index.html";
   fetch('https://flask-click-logger.onrender.com/log_click', {
     method: 'POST',
     headers: {'Content-Type': 'application/json'},
@@ -39,7 +41,7 @@ function logPageView() {
       timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
       language: navigator.language,
       userAgent: navigator.userAgent,
-      page: "index.html"
+      page: path
     })
   });
 }
@@ -70,8 +72,8 @@ def create_html_file(text_file):
         content = file.read()
         file.seek(0)
         file.write(HTML_HEADER)
-        if text_file=="index.text":
-            file.write(INDEX_SCRIPT)
+        # if text_file=="index.text":
+        file.write(INDEX_SCRIPT)
         file.write("<body>\n")
         file.write(content)
         file.write('\n</body>\n</html>\n')
@@ -125,7 +127,7 @@ def add_toc_and_entries(file_path):
 
 def add_webpage_list_to_index():
     index_file = "index.html"
-    lineno = 43
+    lineno = 45
     html_files = [filename for filename in os.listdir(".") if filename.endswith(".html")]
     html_files.sort(reverse=True)
     

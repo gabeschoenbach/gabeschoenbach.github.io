@@ -21,6 +21,8 @@
 
 <script>
 function logPageView() {
+  const segments = window.location.pathname.split("/").filter(Boolean);
+  const path = segments.length > 0 ? segments[segments.length - 1] : "index.html";
   fetch('https://flask-click-logger.onrender.com/log_click', {
     method: 'POST',
     headers: {'Content-Type': 'application/json'},
@@ -30,7 +32,7 @@ function logPageView() {
       timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
       language: navigator.language,
       userAgent: navigator.userAgent,
-      page: "index.html"
+      page: path
     })
   });
 }

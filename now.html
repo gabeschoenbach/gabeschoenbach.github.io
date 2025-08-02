@@ -18,6 +18,28 @@
   gtag('config', 'G-MSDX0D4TH9');
 </script>
 
+
+<script>
+function logPageView() {
+  const segments = window.location.pathname.split("/").filter(Boolean);
+  const path = segments.length > 0 ? segments[segments.length - 1] : "index.html";
+  fetch('https://flask-click-logger.onrender.com/log_click', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({
+      screenWidth: window.screen.width,
+      screenHeight: window.screen.height,
+      timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+      language: navigator.language,
+      userAgent: navigator.userAgent,
+      page: path
+    })
+  });
+}
+
+window.addEventListener("DOMContentLoaded", logPageView);
+</script>
+
 <body>
 <h3 id="what-am-i-up-to">what am i up to?</h3>
 <p><a href="https://gabey.zip">go back ↰</a></p>
