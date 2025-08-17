@@ -129,6 +129,7 @@ def add_webpage_list_to_index():
     index_file = "index.html"
     lineno = 45
     html_files = [filename for filename in os.listdir(".") if filename.endswith(".html")]
+    print(html_files)
     html_files.sort(reverse=True)
     
     with open(index_file, "r") as file:
