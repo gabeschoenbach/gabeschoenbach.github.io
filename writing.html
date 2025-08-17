@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<title>Gabe Schoenbach</title>
+<link rel="icon" type="image/x-icon" href="/images/favicon.png">
+<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MSDX0D4TH9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MSDX0D4TH9');
+</script>
+
+
+<script>
+function logPageView() {
+  const segments = window.location.pathname.split("/").filter(Boolean);
+  const path = segments.length > 0 ? segments[segments.length - 1] : "index.html";
+  fetch('https://flask-click-logger.onrender.com/log_click', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({
+      screenWidth: window.screen.width,
+      screenHeight: window.screen.height,
+      timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+      language: navigator.language,
+      userAgent: navigator.userAgent,
+      page: path
+    })
+  });
+}
+
+window.addEventListener("DOMContentLoaded", logPageView);
+</script>
+
+<body>
+<h3 id="little-pieces-ive-written">little pieces i’ve written</h3>
+<p><a href="https://gabey.zip">go back ↰</a></p>
+<div class="page_toc">
+<div><a href="#california"># california</a></div>
+</div>
+<h2 id="california"><a href="#california">#</a> california</h2>
+<p>On cold nights in December, we would meet at the high school parking
+lot, ten cars deep. And then we’d caravan, turning right out of the
+school, a mile down Montecito, left on Mission towards Somerfield Lane,
+till we got to Parktrail. A dozen nervous cross country nerds, piling
+out of the cars, taking off. Manzanita trees neatly threaded through
+with casual wordplay, borne from thousands of miles on the same stunning
+mountain. Go deep into Annadel State Park. Hang a right on the fire road
+and head three miles southeast, winding yourself up Spring Creek’s
+insistent climb. Dark red dirt streaking across ankles. Quick, short
+breaths.</p>
+<p>We made it up to Lake Ilsanjo to see the deep moon loft itself above
+sillouhetted oaks. Orange-yellow reflection shimmering above quiet
+water. We threw our running shorts in a haphazard heap on that first
+picnic table, everything off except shoes and PR socks. Howls echoed
+across the silent meadow. A field of dry grass rustling softly under
+that now quicksilver moon. And then we <em>ran</em>.</p>
+<hr />
+<p>Every December 21, I’d stay over at Rowan’s. We’d get up so early it
+still felt late, pile into Martina’s Volvo stationwagon and head 20
+minutes north up Highway 12, hoping to get to Sugarloaf Ridge with more
+than an hour before sunrise. We’d run up the moutain, screetching to a
+halt only if we came upon a thin puddle — chance there would be rare ice
+over the surface.</p>
+<p>I have no memory of summitting the mountain. Only running back down,
+color slowly returning to the world as the slow winter sun rose behind
+us. Dashing to our picnic table by the car, rabid for steamed milk with
+hastily mixed-in chocolate powder. Solstice.</p>
+
+<p class="backtotoplink"><a title="Back to top" href="#">↸ Back to top</a></p>
+</body>
+</html>
