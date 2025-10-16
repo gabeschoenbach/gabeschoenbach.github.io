@@ -14,9 +14,9 @@ I've been thinking a lot about how research projects tend to fall into three con
 With these phases in mind, here are the states of my various projects:
 
 * Optimization in random graphs: communication
-* Multidimensional range-searchable encryption: communication
+* Multidimensional range-searchable encryption: discovery/communication
 * Redistricting - irreducibility: discovery
-* Redistricting - enumeration: exploration 
+* Redistricting - enumeration: exploration/discovery 
 * Redistricting - mixing times: exploration
 * Actuarially fair insurance pricing: exploration (on hold)
 * Job scheduling lower bound: exploration (on hold)
