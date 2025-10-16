@@ -15,8 +15,8 @@ With these phases in mind, here are the states of my various projects:
 
 * Random graphs: communication
 * Searchable encryption: communication
-* Redistricting - irreducibility: discovery (long)
-* Redistricting - enumeration: discovery (long)
+* Redistricting - irreducibility: discovery
+* Redistricting - enumeration: discovery
 * Redistricting - mixing times: exploration
 * Insurance: exploration
 * Job scheduling: exploration
