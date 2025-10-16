@@ -1,13 +1,25 @@
 ### what am i up to? 
 [go back ↰](https://gabey.zip)
 
+## discrete math
+I'm TAing [Discrete Mathematics (CMSC 27100)](https://people.cs.uchicago.edu/~davidcash/271-autumn-25/index.html) this quarter, really enjoying teaching students how to write proofs! 
+
 ## on my mind
-The summer is so great for pushing forward on many research projects. I've been doing a lot of combinatorial work lately --- thinking about algorithmic questions on random graphs and a couple projects inspired by computational redistricting. I also have been working on a paper about range-searchable encryption schemes that I hope to finish soon. It's been satisfying to have the time and space to balance several ideas at once. 
+I've been thinking a lot about how research projects tend to fall into three consecutive phases. First is the "study/exploration" phase when you're just learning about the area, trying to develop intuition and learn techniques. This can take a long time, and sometimes you explore for a while and ultimately realize there is no path towards interesting results. Second is the "discovery" phase --- you now have a lot of intuition for the area and can prove things! This is a very exciting interval, but often short (or you get stuck here and it never ends until you decide to give up).  Last is the "communication" phase, where you've basically determined your results but are trying to figure out how to communicate it --- paper-writing, developing talks, etc. This phase always takes longer than I think, but I really enjoy it. It's interesting to see how the act of communicating can help you refine the results themselves.
 
+With these phases in mind, here are the states of my various projects:
+* Random graphs: communication
+* Searchable encryption: communication
+* Redistricting - irreducibility: discovery (long)
+* Redistricting - enumeration: discovery (long)
+* Redistricting - mixing times: exploration
+* Insurance: exploration
+* Job scheduling: exploration
+* Open question about mayors: discovery (gave up for now)
 
-## everyone is getting married
-Doesn't it feel like that? I've been going to a lot of weddings and been having a lot of fun at every single one of them.
+## worried about things
+Like ICE in Chicago, the CTA getting defunded, etc etc.
 
 ---
 
-Last updated August 2025.
+Last updated October 2025.
