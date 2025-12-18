@@ -15,10 +15,11 @@ With these phases in mind, here are the states of my various projects:
 
 * Optimization in random graphs: communication
 * Multidimensional range-searchable encryption: communication
-* Redistricting - enumeration: communication
-* Redistricting - mixing times: discovery
-* Redistricting - irreducibility: discovery
-* Distinguishing permutations from functions: exploration
+* Enumerating the 10x10 grid: communication
+* A new Markov chain for redistricting: communication
+* Markov chains on random graphs: discovery
+* Prophet inequalities: exploration (on hold)
+* Distinguishing permutations from functions: exploration (on hold)
 * Actuarially fair insurance pricing: exploration (on hold)
 * Job scheduling lower bound: exploration (on hold)
 * Impeaching "mayors" of universal covers: discovery (gave up for now)
