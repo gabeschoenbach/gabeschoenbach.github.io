@@ -1,9 +1,6 @@
 ### what am i up to? 
 [go back ↰](https://gabey.zip)
 
-## discrete math
-I'm TAing [Discrete Mathematics (CMSC 27100)](https://people.cs.uchicago.edu/~davidcash/271-autumn-25/index.html) this quarter, really enjoying teaching students how to write proofs! 
-
 ## on my mind
 I've been thinking a lot about how research projects tend to fall into three consecutive phases. 
 
@@ -15,8 +12,8 @@ With these phases in mind, here are the states of my various projects:
 
 * Optimization in random graphs: communication
 * Multidimensional range-searchable encryption: communication
-* Enumerating the 10x10 grid: communication
 * A new Markov chain for redistricting: communication
+* Enumerating the 10x10 grid: communication
 * Markov chains on random graphs: discovery
 * Prophet inequalities: exploration (on hold)
 * Distinguishing permutations from functions: exploration (on hold)
@@ -25,6 +22,7 @@ With these phases in mind, here are the states of my various projects:
 * Impeaching "mayors" of universal covers: discovery (gave up for now)
 
 ## big (TCS) questions
+* Given that [the low-degree conjecture is false](https://arxiv.org/pdf/2505.17360), how can we build a good theory of average-case hardness?
 * [Is structure necessary for public-key cryptography?](https://www.boazbarak.org/Papers/meta-alg.pdf)
 
 ---
