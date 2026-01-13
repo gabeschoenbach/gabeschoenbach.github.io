@@ -2,12 +2,12 @@
 [go back ↰](https://gabey.zip)
 
 ## quick stuff 
-I'm a [fourth-year PhD student](https://cs.uchicago.edu/people/gabe-schoenbach/) in the Computer Science department at the University of Chicago, advised by [Aloni Cohen](https://aloni.net). I'm generally interested in discrete mathematics.  
+I'm a [fourth-year PhD student](https://cs.uchicago.edu/people/gabe-schoenbach/) in the Computer Science department at the University of Chicago, advised by [Aloni Cohen](https://aloni.net). I'm generally interested in discrete mathematics.
  
 I grew up in Glen Ellen, California and greatly miss the trails, mountains, and wildlife back home. But I love exploring the many neighborhoods of Chicago, running and biking the lakefront, and seeing live performances around the city. I'm obsessed with making the dumbest jokes possible, as frequently as my friends will allow.
 
 ## research
-I like thinking about questions that are easy to state and hard to solve. Lately, I've been interested in optimization problems on random graphs and Markov chains over the space of balanced graph partitions. I also do work in cryptography; watermarking generative AI models and building structured encryption schemes. Before starting my PhD, I spent two years at the [MGGG Redistricting Lab](https://mggg.org/people/mduchin/) at Tufts University, working with [Moon Duchin](https://mggg.org/people/mduchin/) to connect the academic study of [computational redistricting](https://mggg.org/gerrybook.html) with real-world applications. 
+I like thinking about questions that are easy to state and hard to solve. I'm especially interested in problems that require combinatorial thinking, set out to prove impossibility results (lower bounds), or involve (random) graphs or trees. Lately, I've been interested in optimization problems on random graphs and Markov chains for sampling balanced graph partitions. I moonlight as a cryptographer, having worked on efficient structured encryption schemes and watermarking LLMs. Before starting my PhD, I spent two years at the [MGGG Redistricting Lab](https://mggg.org/people/mduchin/) at Tufts University, working with [Moon Duchin](https://mggg.org/people/mduchin/) to connect the academic study of [computational redistricting](https://mggg.org/gerrybook.html) with real-world applications. 
 
 ## this site
 I'm shamelessly copying [Kunal Marwaha](https://www.kunalmarwaha.com)'s format and style, because I appreciate a minimal and easy-to-update website. I hope to make this place a repository for my research ideas, scattered thoughts, and any other project that would be natural to host online.
