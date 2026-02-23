@@ -13,15 +13,16 @@ I've been thinking a lot about how research projects tend to fall into three con
 
 With these phases in mind, here are the states of my various projects:
 
-* Optimization in random graphs: communication
-* Multidimensional range-searchable encryption: communication
-* A new Markov chain for redistricting: communication
-* Enumerating the 10x10 grid: communication
-* Markov chains on random graphs: discovery
+* [A new Markov chain for redistricting](https://arxiv.org/abs/2602.11993v1): communication
+* Hardness of finding large common induced subgraphs: communication
+* New bounds/constructions for range-searchable encryption: communication
+* Markov chains on random graphs: exploration/discovery
+* Algorithmic ideas for LCIS in the planted setting: exploration
 * Prophet inequalities: exploration (on hold)
 * Distinguishing permutations from functions: exploration (on hold)
 * Actuarially fair insurance pricing: exploration (on hold)
 * Job scheduling lower bound: exploration (on hold)
+* Enumerating the 10x10 grid: communication (on hold)
 * Impeaching "mayors" of universal covers: discovery (gave up for now)
 
 ## big (TCS) questions
