@@ -14,19 +14,25 @@ I've been thinking a lot about how research projects tend to fall into three con
 2. **Discovery**: Now you have a lot of intuition for the area and can prove things! This is a very exciting interval, but often short (or you get stuck here and it never ends, until you decide to give up). 
 3. **Communication**: You've basically determined your results but are trying to figure out how to communicate it --- organizing/simplifying results, writing the paper, developing talks, etc. This phase always takes longer than I think, but I really enjoy it. It's interesting to see how the act of communicating can help you refine the results themselves.
 
-With these phases in mind, here are the states of my various projects:
+For my own sanity, it's helpful to keep track of the states of my various projects:
 
-* [A new Markov chain for redistricting](https://arxiv.org/abs/2602.11993v1): communication
-* Hardness of finding large common induced subgraphs: communication
-* New bounds/constructions for range-searchable encryption: communication
-* Markov chains on random graphs: exploration/discovery
-* Algorithmic ideas for LCIS in the planted setting: exploration
-* Prophet inequalities: exploration (on hold)
-* Distinguishing permutations from functions: exploration (on hold)
-* Actuarially fair insurance pricing: exploration (on hold)
-* Job scheduling lower bound: exploration (on hold)
-* Enumerating the 10x10 grid: communication (on hold)
-* Impeaching "mayors" of universal covers: discovery (gave up for now)
+**Communication**
+* [The BUD Walk](https://arxiv.org/abs/2602.11993v1)
+* Average-case hardness of LCIS
+* RSE bounds/constructions
+* 10x10 enumeration (on hold)
+
+**Discovery**
+*Impeaching "mayors" of universal covers (gave up for now)
+
+**Study/Exploration**
+* ReCom on dense random graphs
+* Algorithms for planted subgraph
+* Prophet inequalities with cancellation costs
+* AI and the Fourth Amendment
+* Actuarially fair insurance pricing (on hold)
+* Distinguishing permutations from functions (on hold)
+* Job scheduling lower bound (on hold)
 
 ## big (TCS) questions
 * Given that [the low-degree conjecture is false](https://arxiv.org/pdf/2505.17360), how can we build a good theory of average-case hardness?
