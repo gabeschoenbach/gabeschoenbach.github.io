@@ -17,15 +17,18 @@ I've been thinking a lot about how research projects tend to fall into three con
 For my own sanity, it's helpful to keep track of the states of my various projects:
 
 **Communication**
+
 * [The BUD Walk](https://arxiv.org/abs/2602.11993v1)
 * Average-case hardness of LCIS
 * RSE bounds/constructions
 * 10x10 enumeration (on hold)
 
 **Discovery**
+
 *Impeaching "mayors" of universal covers (gave up for now)
 
 **Study/Exploration**
+
 * ReCom on dense random graphs
 * Algorithms for planted subgraph
 * Prophet inequalities with cancellation costs
