@@ -1,11 +1,8 @@
 ### what am i up to? 
 [go back ↰](https://gabey.zip)
 
-## just finished three papers!
-I had three paper submissions from February 4-12th. It was a big crunch but with the help of many collaborators we were able to get all submitted. Since then I bought a guitar and have mostly been playing that. Eventually I will start doing research again.
-
 ## TAing
-I'm currently TAing Intro to Cryptography (CMSC 28400), taught by [Aloni Cohen](https://aloni.net). My office hours are Wednesdays, 10am-12pm and 2-4pm at JCL 207.
+I'm currently TAing Theory of Algorithms (CMSC 27200), taught by [Lorenzo Orecchia](https://orecchia.net/). My office hours are Wednesdays, 1-2pm in JCL 205.
 
 ## on my mind
 I've been thinking a lot about how research projects tend to fall into three consecutive phases. 
@@ -20,7 +17,6 @@ For my own sanity, it's helpful to keep track of the states of my various projec
 
 * [The BUD Walk](https://arxiv.org/abs/2602.11993v1)
 * Average-case hardness of LCIS
-* RSE bounds/constructions
 * 10x10 enumeration (on hold)
 
 **Discovery**
@@ -30,7 +26,9 @@ For my own sanity, it's helpful to keep track of the states of my various projec
 **Study/Exploration**
 
 * ReCom on dense random graphs
-* Algorithms for planted subgraph
+* Algorithms for planted random subgraph
+* BUD irreducibility
+* Cryptography from graph theoretic assumptions
 * Prophet inequalities with cancellation costs
 * AI and the Fourth Amendment
 * Actuarially fair insurance pricing (on hold)
@@ -43,4 +41,4 @@ For my own sanity, it's helpful to keep track of the states of my various projec
 
 ---
 
-Last updated February 2026.
+Last updated March 2026.
