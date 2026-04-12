@@ -21,24 +21,26 @@ For my own sanity, it's helpful to keep track of the states of my various projec
 
 **Discovery**
 
+* BUD irreducibility
+* ReCom on dense random graphs
 * Impeaching "mayors" of universal covers (gave up for now)
 
 **Study/Exploration**
 
-* ReCom on dense random graphs
 * Algorithms for planted random subgraph
-* BUD irreducibility
+* Online algorithms for binary perceptron
 * Cryptography from graph theoretic assumptions
-* Prophet inequalities with cancellation costs
-* AI and the Fourth Amendment
+* Prophet inequalities with cancellation costs (on hold)
+* AI and the Fourth Amendment (on hold)
 * Actuarially fair insurance pricing (on hold)
 * Distinguishing permutations from functions (on hold)
 * Job scheduling lower bound (on hold)
 
 ## big (TCS) questions
+* What makes polynomial-time algorithms so hard to analyze? (My guess is that such algorithms are defined by a property that has nothing to do with *how* they find solutions.)
 * Given that [the low-degree conjecture is false](https://arxiv.org/pdf/2505.17360), how can we build a good theory of average-case hardness?
 * [Is structure necessary for public-key cryptography?](https://www.boazbarak.org/Papers/meta-alg.pdf)
 
 ---
 
-Last updated March 2026.
+Last updated April 2026.
