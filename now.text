@@ -17,19 +17,21 @@ For my own sanity, it's helpful to keep track of the states of my various projec
 
 * [The BUD Walk](https://arxiv.org/abs/2602.11993v1)
 * Average-case hardness of LCIS
+* Flexible Range-Searchable Encryption
 * 10x10 enumeration (on hold)
 
 **Discovery**
 
 * BUD irreducibility
-* ReCom on dense random graphs
 * Impeaching "mayors" of universal covers (gave up for now)
 
 **Study/Exploration**
 
+* ReCom on dense random graphs
 * Algorithms for planted random subgraph
 * Online algorithms for binary perceptron
 * Cryptography from graph theoretic assumptions
+* The overlap gap property
 * Prophet inequalities with cancellation costs (on hold)
 * AI and the Fourth Amendment (on hold)
 * Actuarially fair insurance pricing (on hold)
