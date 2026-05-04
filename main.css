@@ -10,10 +10,10 @@ html {
 
 body {
   margin: auto;
-  padding: 20px 50px 0px 40px;
+  padding: 20px 50px 0px 50px;
   font-family: Arial, sans-serif;
   line-height: 1.35;
-  max-width: 700px;
+  max-width: 750px;
   font-size: 18px;
   overflow-y: scroll;
   background-color: white;
