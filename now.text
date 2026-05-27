@@ -23,13 +23,13 @@ For my own sanity, it's helpful to keep track of the states of my various projec
 **Discovery**
 
 * BUD irreducibility
+* Algorithms for planted random subgraph
+* Online algorithms for binary perceptron
 * Impeaching "mayors" of universal covers (gave up for now)
 
 **Study/Exploration**
 
 * ReCom on dense random graphs
-* Algorithms for planted random subgraph
-* Online algorithms for binary perceptron
 * Cryptography from graph theoretic assumptions
 * The overlap gap property
 * Prophet inequalities with cancellation costs (on hold)
@@ -45,4 +45,4 @@ For my own sanity, it's helpful to keep track of the states of my various projec
 
 ---
 
-Last updated April 2026.
+Last updated May 2026.
