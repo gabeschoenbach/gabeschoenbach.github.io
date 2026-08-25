@@ -5,16 +5,16 @@ Alexander Hoover, Ruth Ng, Gabe Schoenbach, Keer Guan, Claire-Leia Ng, and Richa
 \newblock Lower Bounds and Flexible Constructions for Encrypted Range Search.
 \newblock {\em In submission}, 2026.
 
-\bibitem{arxiv:GRS26}
-David Gamarnik, Mikl\'os Z. R\'acz, and Gabe Schoenbach.
-\newblock Optimal Hardness of Online Algorithms for Large Common Induced Subgraphs.
-\newblock {\em In submission}, 2026.
-
 \bibitem{arxiv:ACH+26}
 Hugo A. Akitaya, Sarah Cannon, Gregory Herschlag, Gabe Schoenbach,
 Kristopher Tapp, and Jamie Tucker-Foltz.
 \newblock The Balanced Up-Down Walk.
 \newblock {\em In submission}, 2026.
+
+\bibitem{arxiv:GRS26}
+David Gamarnik, Mikl\'os Z. R\'acz, and Gabe Schoenbach.
+\newblock Optimal Hardness of Online Algorithms for Large Common Induced Subgraphs.
+\newblock {\em Conference on Learning Theory}, 2026.
 
 \bibitem{SP:CHS25}
 Aloni Cohen, Alexander Hoover, and Gabe Schoenbach

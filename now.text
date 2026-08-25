@@ -1,8 +1,10 @@
 ### what am i up to? 
 [go back ↰](https://gabey.zip)
 
+## I'm giving a public lecture!
+I'll be speaking at [Lectures on Tap](https://www.eventbrite.com/e/lectures-on-tap-inside-the-surprisingly-creative-world-of-math-research-tickets-1997802844086?aff=odcleoeventsincollection) about math research --- what it looks like in practice, similarities to other creative endeavours, and how things might change now that we've made machines that can think. I've been reflecting on this for years now, and this will be a good excuse for me to organize and formalize my thoughts.
 
-## on my mind
+## On my mind
 I've been thinking a lot about how research projects tend to fall into three consecutive phases. 
 
 1. **Study/Exploration**: You are just learning about the area, trying to develop intuition and learn techniques. This can take a long time, and sometimes you explore for a while and ultimately realize there is no path towards interesting results. 
@@ -19,15 +21,14 @@ For my own sanity, it's helpful to keep track of the states of my various projec
 
 **Discovery**
 
-* BUD irreducibility
+* Public-key crypto from planted dense subgraph
 * Algorithms for planted random subgraph
 * Online algorithms for binary perceptron
-* ReCom on dense random graphs
 * Impeaching "mayors" of universal covers (gave up for now)
 
 **Study/Exploration**
 
-* Cryptography from graph theoretic assumptions
+* BUD irreducibility 
 * ReCom on dense random graphs
 * The overlap gap property
 * Average-case reductions between IS and LCIS
@@ -44,4 +45,4 @@ For my own sanity, it's helpful to keep track of the states of my various projec
 
 ---
 
-Last updated July 2026.
+Last updated August 2026.
