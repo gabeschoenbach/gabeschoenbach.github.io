@@ -16,19 +16,18 @@ For my own sanity, it's helpful to keep track of the states of my various projec
 **Communication**
 
 * [The BUD Walk](https://arxiv.org/abs/2602.11993v1)
+* Online algorithms for binary perceptron
+* Public-key encryption from planted dense subgraph
+* Algorithms for planted random subgraph
 * Flexible Range-Searchable Encryption
-* 10x10 enumeration (on hold)
 
 **Discovery**
 
-* Public-key crypto from planted dense subgraph
-* Algorithms for planted random subgraph
-* Online algorithms for binary perceptron
+* 10x10 enumeration
 * Impeaching "mayors" of universal covers (gave up for now)
 
 **Study/Exploration**
 
-* BUD irreducibility 
 * ReCom on dense random graphs
 * The overlap gap property
 * Average-case reductions between IS and LCIS
@@ -45,4 +44,4 @@ For my own sanity, it's helpful to keep track of the states of my various projec
 
 ---
 
-Last updated August 2026.
+Last updated September 2026.
