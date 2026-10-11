@@ -1,8 +1,8 @@
 ### what am i up to? 
 [go back ↰](https://gabey.zip)
 
-## i'm giving a public lecture!
-I'll be speaking at [Lectures on Tap](https://www.eventbrite.com/e/lectures-on-tap-inside-the-surprisingly-creative-world-of-math-research-tickets-1997802844086?aff=odcleoeventsincollection) about math research --- what it looks like in practice and similarities to other creative endeavours. I've been reflecting on this for years now, and this will be a good excuse for me to organize and formalize my thoughts.
+## i gave a public lecture!
+I spoke at [Lectures on Tap](https://www.eventbrite.com/e/lectures-on-tap-inside-the-surprisingly-creative-world-of-math-research-tickets-1997802844086?aff=odcleoeventsincollection) about math research --- what it looks like in practice and similarities to other creative endeavours. I've been reflecting on this for years now, and this was a good excuse for me to organize and formalize my thoughts.
 
 ## on my mind
 It is crazy that we have made [machines that can think](https://en.wikipedia.org/wiki/Artificial_intelligence). I feel caught between awe/amazement at this futuristic new technology, and concern for how it will negatively impact the world. Academia is lucky in that it is largely self-governing; I've been thinking a lot about what changes math-adjacent academics could take to engage with this technology productively and ethically. 
@@ -20,12 +20,12 @@ For my own sanity, it's helpful to keep track of the states of my various projec
 
 * [The BUD Walk](https://arxiv.org/abs/2602.11993v1)
 * Online algorithms for binary perceptron
-* Public-key encryption from planted dense subgraph
-* Algorithms for planted random subgraph
-* Flexible Range-Searchable Encryption
+* Flexible Range-Searchable Encryption (on hold)
 
 **Discovery**
 
+* Public-key encryption from planted dense subgraph
+* Algorithms for planted random subgraph
 * 10x10 enumeration
 * Impeaching "mayors" of universal covers (gave up for now)
 
